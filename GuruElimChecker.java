@@ -6,12 +6,14 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 //import java.util.Arrays;
+import java.util.Arrays;
 
 
 public class GuruElimChecker {
 
 	static int[] values; 
 	static String[] entrants;
+	static String[] legends;
 	static int[] scores;
 	static int[] scenarioScores;
 	static ArrayList<String[]> allPicks;
@@ -48,7 +50,8 @@ public class GuruElimChecker {
 		allPicks = new ArrayList<String[]>();
 		try {
 	        File inFile = new File("allbrackets.txt");
-	        String player = "";
+	        //String player = "";
+	        //I think this was used to spot check a particular player. May have been rolled into standard functionality when I added complex elimination logic?
 //	        if(args.length < 1)
 	        	checkIndex = 0;
 //	        else
@@ -57,7 +60,7 @@ public class GuruElimChecker {
 	        
 	        //neighbors = new File("neighbors.txt");
 	        
-	        
+	        setUpLegends();
 	        BufferedReader in = new BufferedReader(new FileReader(inFile));
 	        String line;
 	        ArrayList<String> players = new ArrayList<String>();
@@ -72,10 +75,10 @@ public class GuruElimChecker {
 	            	processPossibleResults(picks);
 	            }else{
 	            	players.add(picks[0]);
-	            	if(picks[0].equals(player))
-	            	{
-	            		checkIndex = count;
-	            	}
+//	            	if(picks[0].equals(player))
+//	            	{
+//	            		checkIndex = count;
+//	            	}
 	            	processPlayer(picks);
 	            	count++;
 	            }
@@ -85,19 +88,8 @@ public class GuruElimChecker {
 	        in.close();
 	    } catch (IOException e) {
 	        System.out.println("File Read Error: " + e.getMessage());
-	    }
-		//scores = calculateScores(results);
-		//System.out.println("Current Match: " + nextMatch);
-		
-//		if(checkIndex == 0)
-//		{
-//			checkAllPlayers();
-//		}
-//		else
-//		{
-//			checkPlayer();
-//		}
-		
+	    }	
+		fillPossiblesWithResults();
 		//outputClosestBrackets();
 			if(args.length <= 0)
 				checkNext(1,"Spotcheck_");
@@ -107,6 +99,8 @@ public class GuruElimChecker {
 		calculateScenarios("");*/
 	}
 	
+	//check the next _i_ results. This is recursive, branching until i=1, and resulting in 2^i executions.
+	//filename stores the desired output filename, typically just a concatenation of the combination of results being checked.
 	public static void checkNext(int i, String filename)
 	{
 		String[] possibles = getPossibles(nextMatch);
@@ -133,7 +127,7 @@ public class GuruElimChecker {
 		
 	}
 	
-	
+	//loop through all players, checking if they are alive given a specific scenario (that is stored in results)
 	public static void checkAllPlayers()
 	{
 		try {
@@ -151,19 +145,21 @@ public class GuruElimChecker {
 		}
 	}
 	
-	
+	//run through brackets to see if this player has been eliminated
 	public static void checkPlayer()
 	{
 		try {
 			
-			scenarioResults = new String[35];
+			scenarioResults = new String[150];
 			ArrayList<Integer> differences = new ArrayList<Integer>();
 			//set scenarioResults to current result or player's bracket when not impossible
-			for(int i=0; i < 35; i++)
+			for(int i=0; i < 150; i++)
 			{
 				if(i < nextMatch){
 					scenarioResults[i] = results[i];
 				}else{
+					//check if a pick has been disqualified by previous results. 
+					//If it is still possible, assume it happens, else add the match number to the list to iterate through.
 					if(isValid(allPicks.get(checkIndex)[i],i)){
 						scenarioResults[i] = allPicks.get(checkIndex)[i];
 					}else{
@@ -172,6 +168,8 @@ public class GuruElimChecker {
 					}
 				}
 			}
+			//if there aren't any matches to check specifically (i.e. no picked winners that lost in previous rounds)
+			//	just check to see if they win if everything breaks right.
 			if(differences.size() == 0)
 			{
 				if(outputScenarioWinner("any combination+"))
@@ -181,7 +179,7 @@ public class GuruElimChecker {
 					writer.write("\t"+entrants[checkIndex]+" is DEAD");
 				}
 			}else{
-				//find later round matches to iterate through, where the player is wrong
+				//find later round matches to iterate through, where the player is already guaranteed to be wrong
 				wrongMatches = new int[differences.size()];
 
 
@@ -191,9 +189,10 @@ public class GuruElimChecker {
 				}
 
 				//recurse through results, checking from left-most first. When you reach the end of the list of matches, check scores
+				//	and print the winner for the given combination.
 				boolean isAlive = checkPlayerHelper(0,"");
 
-				//if player is the winner, end execution, else print scenario and winners
+				//if player is the winner, end execution
 				if(isAlive)
 				{
 					writer.write("\t"+entrants[checkIndex]+" is ALIVE");
@@ -210,6 +209,7 @@ public class GuruElimChecker {
 		}
 	}
 	
+	//individual player checker - iterates through _wrongMatches_, and determines if 
 	public static boolean checkPlayerHelper(int i, String scenario)
 	{
 		boolean result = false;
@@ -226,11 +226,12 @@ public class GuruElimChecker {
 			if(result)
 				break;
 		}
-			//possibleResults[nextMatch] = possibles;
+			
 		//if player is the winner, end execution, else print scenario and winners
 		return result;
 	}
 	
+	//checks the scores for all players for a given scenario to see if a player is alive or not. Returns true/false if they are/not.
 	public static boolean outputScenarioWinner(String scene)
 	{
 		try{
@@ -263,49 +264,70 @@ public class GuruElimChecker {
 		}
 	}
 	
-
 	
-	
-//	public static void checkNext(int i, String filename)
-//	{
-//		String[] possibles = getPossibles(nextMatch);
-//		for(String poss : possibles)
-//		{
-//			possibleResults[nextMatch] = new String[1];
-//			possibleResults[nextMatch][0] = poss;
-//			results[nextMatch] = poss;
-//			scores = calculateScores(results);
-//			if(i <= 1)
-//			{
-//				neighbors = new File(filename+poss+".txt");
-//				//outputClosestBrackets();
-//			}else{
-//				nextMatch++;
-//				checkNext(i-1, filename+poss+"+");
-//				nextMatch--;
-//			}
-//		}
-//		possibleResults[nextMatch] = possibles;
-//		
-//	}
-	
+	//gets possible winners for a match within a specific situation, in which the player being checked is already guaranteed to miss the match.
+	//should check _scenarioResults_ instead of _results_
 	public static String[] getPlayerPossibles(int match)
 	{
 		String[] result;
 		int start;
+		
 		ArrayList<String> temp = new ArrayList<String>();
-		if(match < 28)
+		if(match < 96)
 		{
-			start = (match-20)*2+4;
-		}else if(match < 32)
+			start = (match-64)*2+1;
+		}else if(match < 112)
 		{
-			start = (match-28)*2+20;
-		}else if(match < 34)
+			start = (match-96)*2+64;
+		}else if(match < 120)
 		{
-			start = (match-32)*2+28;
+			start = (match-112)*2+96;
 		}else
 		{
-			start = 32;
+			//start of finals division
+			if(match < 128)
+			{
+				temp.add(scenarioResults[match-8]);
+				temp.add(legends[match-120]);
+			}else if(match < 132)
+			{
+				temp.add(getScenarioLoser((match-128)*2+120));
+				temp.add(getScenarioLoser((match-128)*2+121));
+			}else if(match < 136)
+			{
+				temp.add(scenarioResults[(match-132)*2+120]);
+				temp.add(scenarioResults[(match-132)*2+121]);
+			}else if(match < 140)
+			{
+				temp.add(scenarioResults[(match-8)]);
+				temp.add(getScenarioLoser(match-4));
+			}else if(match < 144)
+			{
+				temp.add(scenarioResults[(match-140)*2+132]);
+				temp.add(scenarioResults[(match-140)*2+133]);
+			}else if(match < 146)
+			{
+				temp.add(scenarioResults[(match-2)]);
+				temp.add(getScenarioLoser(match-4));
+			}else if(match == 146)
+			{
+				temp.add(scenarioResults[match-6]);
+				temp.add(scenarioResults[match-5]);
+			}else if(match == 147)
+			{
+				temp.add(scenarioResults[match-3]);
+				temp.add(scenarioResults[match-2]);
+			}else if(match == 148)
+			{
+				temp.add(scenarioResults[match-1]);
+				temp.add(getScenarioLoser(match-2));
+			}else{
+				temp.add(scenarioResults[match-3]);
+				temp.add(scenarioResults[match-1]);
+			}
+			result = temp.toArray(new String[temp.size()]);
+			
+			return result;
 		}
 		for(int i = start; i < start+2; i++)
 		{
@@ -316,7 +338,8 @@ public class GuruElimChecker {
 		return result;
 	}
 	
-	
+	//returns a list of possible winners for a given (next) match.
+	//assumes that all matches before the one asked for have completed.
 	public static String[] getPossibles(int match)
 	{
 		String[] result;
@@ -324,18 +347,61 @@ public class GuruElimChecker {
 		if(!possibleResults[match][0].equals(""))
 			return possibleResults[match];
 		ArrayList<String> temp = new ArrayList<String>();
-		if(match < 28)
+		if(match < 96)
 		{
-			start = (match-20)*2+4;
-		}else if(match < 32)
+			start = (match-64)*2;
+		}else if(match < 112)
 		{
-			start = (match-28)*2+20;
-		}else if(match < 34)
+			start = (match-96)*2+64;
+		}else if(match < 120)
 		{
-			start = (match-32)*2+28;
+			start = (match-112)*2+96;
 		}else
 		{
-			start = 32;
+			//start of finals division
+			if(match < 128)
+			{
+				temp.add(results[match-8]);
+				temp.add(legends[match-120]);
+			}else if(match < 132)
+			{
+				temp.add(getLoser((match-128)*2+120));
+				temp.add(getLoser((match-128)*2+121));
+			}else if(match < 136)
+			{
+				temp.add(results[(match-132)*2+120]);
+				temp.add(results[(match-132)*2+121]);
+			}else if(match < 140)
+			{
+				temp.add(results[(match-8)]);
+				temp.add(getLoser(match-4));
+			}else if(match < 144)
+			{
+				temp.add(results[(match-140)*2+132]);
+				temp.add(results[(match-140)*2+133]);
+			}else if(match < 146)
+			{
+				temp.add(results[(match-2)]);
+				temp.add(getLoser(match-4));
+			}else if(match == 146)
+			{
+				temp.add(results[match-6]);
+				temp.add(results[match-5]);
+			}else if(match == 147)
+			{
+				temp.add(results[match-3]);
+				temp.add(results[match-2]);
+			}else if(match == 148)
+			{
+				temp.add(results[match-1]);
+				temp.add(getLoser(match-2));
+			}else{
+				temp.add(results[match-3]);
+				temp.add(results[match-1]);
+			}
+			result = temp.toArray(new String[temp.size()]);
+			
+			return result;
 		}
 		for(int i = start; i < start+2; i++)
 		{
@@ -354,32 +420,104 @@ public class GuruElimChecker {
 		return result;
 	}
 	
+	//get the loser of a finals division match
+	public static String getLoser(int matchNum)
+	{
+		if(matchNum < 128)
+		{
+			if(results[matchNum] == legends[matchNum - 120])
+				return results[matchNum - 8];
+			else
+				return legends[matchNum - 120];
+		}else if(matchNum > 131 && matchNum < 136)
+		{
+			if(results[matchNum] == results[(matchNum - 132)*2+120])
+				return results[(matchNum - 132)*2+121];
+			else
+				return results[(matchNum - 132)*2+120];
+		}else if(matchNum > 139 && matchNum < 142)
+		{
+			if(results[matchNum] == results[(matchNum - 140)*2+132])
+				return results[(matchNum - 140)*2+133];
+			else
+				return results[(matchNum - 140)*2+132];
+		}else if(matchNum == 146){
+			//matchNum should be 146
+			if(results[matchNum] == results[140])
+				return results[141];
+			else
+				return results[140];
+		}else
+		{
+			return "error";
+		}
+		
+	}
+	
+	//get the loser of a finals division match
+	public static String getScenarioLoser(int matchNum)
+	{
+		if(matchNum < 128)
+		{
+			if(scenarioResults[matchNum] == legends[matchNum - 120])
+				return scenarioResults[matchNum - 8];
+			else
+				return legends[matchNum - 120];
+		}else if(matchNum > 131 && matchNum < 136)
+		{
+			if(scenarioResults[matchNum] == scenarioResults[(matchNum - 132)*2+120])
+				return scenarioResults[(matchNum - 132)*2+121];
+			else
+				return scenarioResults[(matchNum - 132)*2+120];
+		}else if(matchNum > 139 && matchNum < 142)
+		{
+			if(scenarioResults[matchNum] == scenarioResults[(matchNum - 140)*2+132])
+				return scenarioResults[(matchNum - 140)*2+133];
+			else
+				return scenarioResults[(matchNum - 140)*2+132];
+		}else if(matchNum == 146){
+			//matchNum should be 146
+			if(scenarioResults[matchNum] == scenarioResults[140])
+				return scenarioResults[141];
+			else
+				return scenarioResults[140];
+		}else
+		{
+			return "error";
+		}
+		
+	}
+	
+	//fills in the _values_ array with the point values for each match.
 	public static void populateValues()
 	{
-		values = new int[35];
-		for(int i = 0; i < 35; i++)
+		values = new int[150];
+		for(int i = 0; i < 150; i++)
 		{
-			if(i < 20)
+			if(i < 64)
 				values[i] = 1;
-			else if (i < 28)
+			else if (i < 96)
 				values[i] = 2;
-			else if (i < 32)
+			else if (i < 112)
 				values[i] = 4;
-			else if (i < 34)
+			else if (i < 132)
 				values[i] = 8;
-			else 
+			else if (i < 136)
 				values[i] = 16;
+			else if (i == 140 || i == 141)
+				values[i] = 32;
+			else if (i == 146)
+				values[i] = 64;
+			else if (i == 149)
+				values[i] = 76;
+			else //covers the rest of the losers bracket.
+				values[i] = 8;
 		}
 	}
 	
-
-	
-
-	
-
 	public static boolean isValid(String pick, int matchNum)
 	{
-		if(matchNum < 20)
+		if(matchNum < 64)
 		{
 			if(matchNum < nextMatch)
 			{
@@ -392,120 +530,161 @@ public class GuruElimChecker {
 					return true;
 			}
 			return false;
-		}else if(matchNum < 28)
+		}
+		if(matchNum < 96)
 		{
 			if(possibleResults[matchNum][0].equals(""))
-				return isValid(pick, (matchNum-20)*2+4) ||
-						isValid(pick, (matchNum-20)*2+5);
+				return isValid(pick, (matchNum-64)*2) ||
+						isValid(pick, (matchNum-64)*2+1);
 			else
 				return possibleResults[matchNum][0].equals(pick);
-		}else if(matchNum < 32)
+
+		}else if(matchNum < 112)
 		{
 			if(possibleResults[matchNum][0].equals(""))
-				return isValid(pick, (matchNum-28)*2+20) ||
-						isValid(pick, (matchNum-28)*2+21);
+				return isValid(pick, (matchNum-96)*2+64) ||
+						isValid(pick, (matchNum-96)*2+65);
 			else
 				return possibleResults[matchNum][0].equals(pick);
-		}else if(matchNum < 34)
+		}else if(matchNum < 120)
 		{
 			if(possibleResults[matchNum][0].equals(""))
-				return isValid(pick, (matchNum-32)*2+28) ||
-						isValid(pick, (matchNum-32)*2+29);
+				return isValid(pick, (matchNum-112)*2+96) ||
+						isValid(pick, (matchNum-112)*2+97);
 			else
 				return possibleResults[matchNum][0].equals(pick);
 		}else
 		{
-			return isValid(pick, 33)||isValid(pick,32);
-		}
-	}
-	
-	//checks if a pick is valid for a given match, given the possible results or the given results.
-	public static boolean isPlayerPickValid(String pick, int matchNum)
-	{
-		if(matchNum < 20)
-		{
-			if(matchNum < nextMatch)
+			//if it has already happened, return the winner
+			if(!possibleResults[matchNum][0].equals(""))
+				return possibleResults[matchNum][0].equals(pick);
+			//start of finals division
+			if(matchNum < 128)
 			{
-				return results[matchNum].equals(pick);
+				return legends[matchNum-120].equals(pick) 
+						|| isValid(pick, matchNum-8);
+			}else if(matchNum < 132)
+			{
+				return ( !results[(matchNum-128)*2+120].equals(pick) && 
+						isValid(pick, (matchNum-128)*2+120) )
+						|| ( !results[(matchNum-128)*2+121].equals(pick) && 
+								isValid(pick, (matchNum-128)*2+121) );
+			}else if(matchNum < 136)
+			{
+				return isValid(pick, (matchNum-132)*2+120) ||
+						isValid(pick, (matchNum-132)*2+121);
+			}else if(matchNum < 140)
+			{
+				return ( !results[(matchNum-4)].equals(pick) && 
+						isValid(pick, matchNum-4) )
+						|| isValid(pick, (matchNum-8));
+			}else if(matchNum < 144)
+			{
+				return isValid(pick, (matchNum-140)*2+132) ||
+						isValid(pick, (matchNum-140)*2+133);
+			}else if(matchNum < 146)
+			{
+				return ( !results[(matchNum-4)].equals(pick) && 
+						isValid(pick, matchNum-4) )
+						|| isValid(pick, (matchNum-2));
+			}else if(matchNum == 146)
+			{
+				return isValid(pick, matchNum-6) ||
+						isValid(pick, matchNum-5);
+			}else if(matchNum == 147)
+			{
+				return isValid(pick, matchNum-3) ||
+						isValid(pick, matchNum-2);
+			}else if(matchNum == 148)
+			{
+				return ( !results[(matchNum-2)].equals(pick) && 
+						isValid(pick, matchNum-2) )
+						|| isValid(pick, (matchNum-1));
 			}else{
-				return scenarioResults[matchNum].equals(pick);
+				return isValid(pick, matchNum-3) ||
+						isValid(pick, matchNum-1);
 			}
-
-		}else if(matchNum < 28)
-		{
-			if(possibleResults[matchNum][0].equals(""))
-				return isPlayerPickValid(pick, (matchNum-20)*2+4) ||
-						isPlayerPickValid(pick, (matchNum-20)*2+5);
-			else
-				return possibleResults[matchNum][0].equals(pick);
-		}else if(matchNum < 32)
-		{
-			if(possibleResults[matchNum][0].equals(""))
-				return isPlayerPickValid(pick, (matchNum-28)*2+20) ||
-						isPlayerPickValid(pick, (matchNum-28)*2+21);
-			else
-				return possibleResults[matchNum][0].equals(pick);
-		}else if(matchNum < 34)
-		{
-			if(possibleResults[matchNum][0].equals(""))
-				return isPlayerPickValid(pick, (matchNum-32)*2+28) ||
-						isPlayerPickValid(pick, (matchNum-32)*2+29);
-			else
-				return possibleResults[matchNum][0].equals(pick);
-		}else
-		{
-			return isPlayerPickValid(pick, 32)||isPlayerPickValid(pick,33);
 		}
 	}
-
 	
+
+
+	//reads in the list of possible results for the first round (the participants in each match)
 	public static void processPossibleResults(String[] possible)
 	{
-		possibleResults = new String[35][0];
+		possibleResults = new String[150][0];
 		String[] parts;
-		for(int i = 0; i < 35; i++)
+		for(int i = 0; i < 150; i++)
 		{
 			parts = possible[i+1].split("; ");
 			possibleResults[i] = parts;
 		}
 	}
 	
+	//reads the actual results that have occurred so far.
 	public static void processResults(String[] picks)
 	{
-		results = new String[35];
-		for(int i = 1; i < picks.length; i++)
+		results = new String[150];
+		results = Arrays.copyOfRange(picks, 1, picks.length);
+		for(int i = 1; i < results.length; i++)
 		{
-			results[i-1] = picks[i];
-			if(picks[i].equals("") && nextMatch == 0)
-				nextMatch = i-1;
+			if(results[i].equals("")){
+				nextMatch = i;
+				break;
+			}
 		}
 	}
 	
+	//fills in possible results with the actual results. This keeps me from needing to update the Possible row in the .txt document every time.
+	public static void fillPossiblesWithResults()
+	{
+		for(int i = 0; i < nextMatch; i++)
+		{
+			possibleResults[i] = new String[1];
+			possibleResults[i][0] = results[i];
+		}
+	}
+	
+	
+	//enter the seeded characters for the legends bracket.
+	public static void setUpLegends()
+	{
+		legends = new String[8];
+		
+		legends[0] = "Link";
+		legends[1] = "Mega Man";
+		legends[2] = "Cloud Strife";
+		legends[3] = "Crono";
+		legends[4] = "Solid Snake";
+		legends[5] = "Sonic the Hedgehog";
+		legends[6] = "Samus Aran";
+		legends[7] = "Mario";
+	}
+	
+	//read in selected winners for a player. Ignore the first item, since it's the player name.
+	//make sure the semicolon is removed from the end of the line.
 	public static void processPlayer(String[] picks)
 	{
 		String[] playerPicks = new String[picks.length-1];
-		for(int i = 1; i < picks.length-1; i++)
-		{
-			playerPicks[i-1] = picks[i];
-		}
-		playerPicks[playerPicks.length-1] = 
-				picks[picks.length-1].substring(0,picks[picks.length-1].indexOf(';'));
+		playerPicks = Arrays.copyOfRange(picks, 1, picks.length);
+
 		allPicks.add(playerPicks);
 	}
 	
-	public static int[] calculateScores(String[] results)
+	//calculate scores for all players, given a set of results.
+	public static int[] calculateScores(String[] resultsToCheck)
 	{
 		int[] scores = new int[entrants.length];
 		//results = checkResults(preResults);
-		for(int i = 0; i < results.length; i++)
+		for(int i = 0; i < resultsToCheck.length; i++)
 		{
-			if(!results[i].equals(""))
+			if(!resultsToCheck[i].equals(""))
 			{
 				//for each player
 				for(int j = 0; j < entrants.length; j++)
 				{
 					//if the player's pick for the match is equal to the result
-					if(allPicks.get(j)[i].equals(results[i]))
+					if(allPicks.get(j)[i].equals(resultsToCheck[i]))
 					{
 						//increase their points by the value of the match
 						scores[j] += values[i];
