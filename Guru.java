@@ -31,13 +31,13 @@ public class Guru {
 	        File inFile = new File("allbrackets.txt");
 	        
 	        neighbors = new File("neighbors.txt");
-	        
+	        setUpLegends();
 	        BufferedReader in = new BufferedReader(new FileReader(inFile));
 	        String line;
 	        ArrayList<String> players = new ArrayList<String>();
 	        int count = 0;
 	        while ((line = in.readLine()) != null) {
-	            String[] picks = line.split(", ", -1);
+	            String[] picks = line.split(",", -1);
 	            //master results bracket
 	            if(picks[0].equals("ACTUAL"))
 	            {
@@ -230,25 +230,25 @@ public class Guru {
 		{
 			if(matchNum < 128)
 			{
-				if(results[matchNum] == legends[matchNum - 120])
+				if(results[matchNum].equals(legends[matchNum - 120]))
 					return results[matchNum - 8];
 				else
 					return legends[matchNum - 120];
 			}else if(matchNum > 131 && matchNum < 136)
 			{
-				if(results[matchNum] == results[(matchNum - 132)*2+120])
+				if(results[matchNum].equals(results[(matchNum - 132)*2+120]))
 					return results[(matchNum - 132)*2+121];
 				else
 					return results[(matchNum - 132)*2+120];
 			}else if(matchNum > 139 && matchNum < 142)
 			{
-				if(results[matchNum] == results[(matchNum - 140)*2+132])
+				if(results[matchNum].equals(results[(matchNum - 140)*2+132]))
 					return results[(matchNum - 140)*2+133];
 				else
 					return results[(matchNum - 140)*2+132];
 			}else if(matchNum == 146){
 				//matchNum should be 146
-				if(results[matchNum] == results[140])
+				if(results[matchNum].equals(results[140]))
 					return results[141];
 				else
 					return results[140];
@@ -349,7 +349,7 @@ public class Guru {
 						out += " total difference: " + comparisons[i][1];
 						out += " current deficit: "+ (scores[i]-scores[player]); 
 						out += " possible gain: " + comparisons[i][2] +"\n";
-						out += "    magic number: " + (comparisons[i][2]-(scores[i]-scores[player])) + "\n";
+						out += "    elimination cushion: " + (comparisons[i][2]-(scores[i]-scores[player])) + "\n";
 						out += "\tdifferences: ";
 						diffmatches = getDifferentMatches(player,i);
 						out += Arrays.toString(diffmatches)+"\n";

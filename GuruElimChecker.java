@@ -66,7 +66,7 @@ public class GuruElimChecker {
 	        ArrayList<String> players = new ArrayList<String>();
 	        int count = 0;
 	        while ((line = in.readLine()) != null) {
-	            String[] picks = line.split(", ", -1);
+	            String[] picks = line.split(",", -1);
 	            if(picks[0].equals("ACTUAL"))
 	            {
 	            	processResults(picks);
@@ -275,7 +275,7 @@ public class GuruElimChecker {
 		ArrayList<String> temp = new ArrayList<String>();
 		if(match < 96)
 		{
-			start = (match-64)*2+1;
+			start = (match-64)*2;
 		}else if(match < 112)
 		{
 			start = (match-96)*2+64;
@@ -289,22 +289,35 @@ public class GuruElimChecker {
 			{
 				temp.add(scenarioResults[match-8]);
 				temp.add(legends[match-120]);
+				temp.remove(scenarioResults[((match-120)/2)+128]); //don't allow a character to win if they're the winner in this player's losers bracket for the corresponding match
 			}else if(match < 132)
 			{
-				temp.add(getScenarioLoser((match-128)*2+120));
-				temp.add(getScenarioLoser((match-128)*2+121));
+				temp.add(legends[(match-128)*2]);
+				temp.add(legends[(match-128)*2+1]);
+				temp.add(scenarioResults[(match-128)*2+112]);
+				temp.add(scenarioResults[(match-128)*2+113]);
+				temp.remove(scenarioResults[(match-128)*2+120]);
+				temp.remove(scenarioResults[(match-128)*2+121]);
+				//temp.add(getScenarioLoser((match-128)*2+120));
+				//temp.add(getScenarioLoser((match-128)*2+121));
 			}else if(match < 136)
 			{
 				temp.add(scenarioResults[(match-132)*2+120]);
 				temp.add(scenarioResults[(match-132)*2+121]);
+				temp.remove(scenarioResults[((match-132)/2)+142]);
 			}else if(match < 140)
 			{
 				temp.add(scenarioResults[(match-8)]);
-				temp.add(getScenarioLoser(match-4));
+				temp.add(scenarioResults[(match-136)*2+120]);
+				temp.add(scenarioResults[(match-136)*2+121]);
+				temp.remove(scenarioResults[(match-4)]);
+				//temp.add(getScenarioLoser(match-4));
 			}else if(match < 144)
 			{
 				temp.add(scenarioResults[(match-140)*2+132]);
 				temp.add(scenarioResults[(match-140)*2+133]);
+				if(match < 142)
+					temp.remove(scenarioResults[match+4]);
 			}else if(match < 146)
 			{
 				temp.add(scenarioResults[(match-2)]);
@@ -313,6 +326,7 @@ public class GuruElimChecker {
 			{
 				temp.add(scenarioResults[match-6]);
 				temp.add(scenarioResults[match-5]);
+				temp.remove(scenarioResults[match+2]);
 			}else if(match == 147)
 			{
 				temp.add(scenarioResults[match-3]);
@@ -379,14 +393,16 @@ public class GuruElimChecker {
 			{
 				temp.add(results[(match-140)*2+132]);
 				temp.add(results[(match-140)*2+133]);
+				
 			}else if(match < 146)
 			{
 				temp.add(results[(match-2)]);
 				temp.add(getLoser(match-4));
-			}else if(match == 146)
+			}else if(match == 146)//winners finals
 			{
 				temp.add(results[match-6]);
 				temp.add(results[match-5]);
+				
 			}else if(match == 147)
 			{
 				temp.add(results[match-3]);
@@ -425,25 +441,25 @@ public class GuruElimChecker {
 	{
 		if(matchNum < 128)
 		{
-			if(results[matchNum] == legends[matchNum - 120])
+			if(results[matchNum].equals(legends[matchNum - 120]))
 				return results[matchNum - 8];
 			else
 				return legends[matchNum - 120];
 		}else if(matchNum > 131 && matchNum < 136)
 		{
-			if(results[matchNum] == results[(matchNum - 132)*2+120])
+			if(results[matchNum].equals(results[(matchNum - 132)*2+120]))
 				return results[(matchNum - 132)*2+121];
 			else
 				return results[(matchNum - 132)*2+120];
 		}else if(matchNum > 139 && matchNum < 142)
 		{
-			if(results[matchNum] == results[(matchNum - 140)*2+132])
+			if(results[matchNum].equals(results[(matchNum - 140)*2+132]))
 				return results[(matchNum - 140)*2+133];
 			else
 				return results[(matchNum - 140)*2+132];
 		}else if(matchNum == 146){
 			//matchNum should be 146
-			if(results[matchNum] == results[140])
+			if(results[matchNum].equals(results[140]))
 				return results[141];
 			else
 				return results[140];
