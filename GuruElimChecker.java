@@ -131,12 +131,14 @@ public class GuruElimChecker {
 	public static void checkAllPlayers()
 	{
 		try {
+			System.out.println(outFile.getName()+": ");
 			writer = new FileWriter(outFile);
 			for(int i = 0; i < entrants.length; i++)
 			{
 				checkIndex = i;
 				checkPlayer();
 			}
+			System.out.println();
 			writer.close();
 		}catch(IOException e) {
 			System.out.println("problem with output");
@@ -176,6 +178,7 @@ public class GuruElimChecker {
 				{
 					writer.write("\t"+entrants[checkIndex]+" is ALIVE");
 				}else{
+					System.out.println(entrants[checkIndex]);
 					writer.write("\t"+entrants[checkIndex]+" is DEAD");
 				}
 			}else{
@@ -198,6 +201,7 @@ public class GuruElimChecker {
 					writer.write("\t"+entrants[checkIndex]+" is ALIVE");
 				}else{
 					writer.write("\t"+entrants[checkIndex]+" is DEAD");
+					System.out.println(entrants[checkIndex]);
 				}
 			}
 			writer.write("\n");
@@ -226,7 +230,7 @@ public class GuruElimChecker {
 			if(result)
 				break;
 		}
-			
+		scenarioResults[wrongMatches[i]] = "";
 		//if player is the winner, end execution, else print scenario and winners
 		return result;
 	}
@@ -255,7 +259,7 @@ public class GuruElimChecker {
 					writer.write(entrants[j]+" ");
 				}
 			}
-			writer.write("\n");
+			writer.write("with "+maxscore+" points. "+entrants[checkIndex]+" had "+scores[checkIndex]+" points.\n");
 			return result;
 		}catch(IOException e) {
 			System.out.println("problem with output");
@@ -321,7 +325,10 @@ public class GuruElimChecker {
 			}else if(match < 146)
 			{
 				temp.add(scenarioResults[(match-2)]);
-				temp.add(getScenarioLoser(match-4));
+				temp.add(scenarioResults[(match-144)*2+132]);
+				temp.add(scenarioResults[(match-144)*2+133]);
+				temp.remove(scenarioResults[(match-4)]);
+				//temp.add(getScenarioLoser(match-4));
 			}else if(match == 146)
 			{
 				temp.add(scenarioResults[match-6]);
@@ -334,7 +341,10 @@ public class GuruElimChecker {
 			}else if(match == 148)
 			{
 				temp.add(scenarioResults[match-1]);
-				temp.add(getScenarioLoser(match-2));
+				temp.add(scenarioResults[match-8]);
+				temp.add(scenarioResults[match-7]);
+				temp.remove(scenarioResults[(match-2)]);
+				//temp.add(getScenarioLoser(match-2));
 			}else{
 				temp.add(scenarioResults[match-3]);
 				temp.add(scenarioResults[match-1]);

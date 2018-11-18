@@ -1,0 +1,339 @@
+<span class="nocode">
+updated through Auron's win
+Ngamer's closest brackets: - current score: 181 count: 1
+  Sniperdog - total difference: 144 current deficit: -12 possible gain: 24
+    elimination cushion: 36
+	differences: [7, 11, 37, 42, 44, 63, 85, 86, 96, 100, 102, 105, 106, 107, 110, 117, 119, 131, 146, 150]
+yoblazer's closest brackets: - current score: 182 count: 1
+  SwiftyDC - total difference: 76 current deficit: 4 possible gain: 24
+    elimination cushion: 20
+	differences: [10, 26, 34, 39, 44, 64, 75, 77, 83, 86, 96, 98, 100, 102, 114, 116, 118, 119, 130, 146]
+Ranticoot's closest brackets: - current score: 191 count: 1
+  SpikeDragon - total difference: 176 current deficit: 14 possible gain: 112
+    elimination cushion: 98
+	differences: [3, 7, 10, 11, 12, 14, 19, 23, 26, 39, 42, 43, 44, 52, 70, 73, 76, 77, 83, 86, 90, 97, 101, 102, 106, 110, 113, 115, 119, 128, 130, 132, 136, 138, 140, 142, 144, 149]
+Shonen_Bat's closest brackets: - current score: 176 count: 1
+  Steevo - total difference: 283 current deficit: 27 possible gain: 96
+    elimination cushion: 69
+	differences: [7, 10, 12, 23, 26, 31, 44, 70, 73, 76, 84, 94, 96, 99, 101, 102, 106, 114, 115, 116, 118, 122, 124, 126, 129, 130, 131, 133, 137, 138, 139, 141, 143, 145, 147, 148, 149]
+PSI_NESS's closest brackets: - current score: 196 count: 1
+  SpikeDragon - total difference: 31 current deficit: 9 possible gain: 8
+    elimination cushion: -1
+	differences: [19, 44, 48, 70, 83, 86, 90, 106, 107, 110, 119]
+Should be dead
+meche's closest brackets: - current score: 170 count: 1
+  Steevo - total difference: 125 current deficit: 33 possible gain: 72
+    elimination cushion: 39
+	differences: [3, 7, 11, 12, 14, 26, 37, 42, 44, 54, 63, 70, 73, 75, 77, 86, 95, 96, 98, 101, 106, 110, 112, 115, 119, 129, 130, 132, 138, 139, 143, 145, 148]
+PrinceKaro's closest brackets: - current score: 146 count: 1
+  SuorGenoveffa - total difference: 150 current deficit: 32 possible gain: 72
+    elimination cushion: 40
+	differences: [3, 7, 20, 24, 26, 39, 46, 47, 55, 63, 68, 74, 83, 85, 86, 88, 94, 96, 98, 99, 101, 106, 107, 115, 116, 117, 118, 124, 130, 131, 132, 138, 143, 145, 148, 149]
+dimi's closest brackets: - current score: 186 count: 1
+  jacko_vdz - total difference: 41 current deficit: -5 possible gain: 16
+    elimination cushion: 21
+	differences: [6, 7, 11, 12, 14, 37, 44, 70, 79, 86, 90, 91, 106, 107, 143, 148]
+Big Bob's closest brackets: - current score: 179 count: 1
+  SwiftyDC - total difference: 93 current deficit: 7 possible gain: 24
+    elimination cushion: 17
+	differences: [3, 6, 7, 10, 11, 14, 19, 24, 26, 37, 40, 42, 44, 48, 50, 63, 64, 76, 77, 79, 83, 84, 86, 90, 96, 98, 101, 106, 113, 115, 118, 129, 130, 146]
+TRE's closest brackets: - current score: 192 count: 1
+  scaryice - total difference: 70 current deficit: -8 possible gain: 16
+    elimination cushion: 24
+	differences: [7, 12, 14, 19, 37, 39, 52, 63, 70, 73, 75, 77, 85, 90, 96, 101, 107, 113, 115, 116, 129, 130]
+MetalmindStats's closest brackets: - current score: 180 count: 1
+  handsomeboy - total difference: 134 current deficit: -8 possible gain: 56
+    elimination cushion: 64
+	differences: [3, 7, 11, 19, 23, 24, 43, 48, 60, 64, 70, 76, 77, 96, 100, 101, 102, 105, 107, 113, 114, 115, 117, 118, 124, 129, 130, 131, 139, 143, 145]
+linkhatesganon's closest brackets: - current score: 178 count: 1
+  pirate - total difference: 183 current deficit: 17 possible gain: 144
+    elimination cushion: 127
+	differences: [3, 19, 24, 26, 37, 38, 39, 43, 63, 77, 83, 86, 91, 96, 101, 102, 110, 115, 119, 122, 124, 129, 130, 132, 137, 138, 143, 147, 149]
+MarioSuperstar's closest brackets: - current score: 179 count: 1
+  SpikeDragon - total difference: 112 current deficit: 26 possible gain: 64
+    elimination cushion: 38
+	differences: [37, 39, 43, 52, 73, 83, 101, 105, 106, 107, 115, 116, 117, 129, 130, 131, 134, 138, 143, 145]
+swirldude's closest brackets: - current score: 178 count: 1
+  XIII - total difference: 68 current deficit: 18 possible gain: 24
+    elimination cushion: 6
+	differences: [10, 24, 39, 43, 44, 46, 48, 52, 77, 79, 86, 90, 100, 101, 106, 114, 115, 129, 148, 149]
+Z1mZum's closest brackets: - current score: 178 count: 1
+  XIII - total difference: 288 current deficit: 18 possible gain: 32
+    elimination cushion: 14
+	differences: [3, 7, 11, 14, 27, 31, 34, 37, 40, 42, 44, 46, 48, 54, 59, 63, 77, 84, 86, 90, 94, 96, 101, 105, 106, 110, 115, 117, 119, 125, 129, 131, 135, 142, 147, 149, 150]
+Steevo's closest brackets: - current score: 203 count: 1
+  AxemRedRanger - total difference: 79 current deficit: -13 possible gain: 32
+    elimination cushion: 45
+	differences: [19, 23, 26, 37, 39, 43, 46, 48, 52, 73, 76, 77, 86, 90, 91, 96, 101, 102, 106, 110, 115, 119, 124, 130, 138]
+Wibo's closest brackets: - current score: 180 count: 1
+  Steevo - total difference: 117 current deficit: 23 possible gain: 56
+    elimination cushion: 33
+	differences: [6, 7, 11, 12, 24, 26, 31, 37, 42, 43, 44, 55, 63, 70, 73, 79, 86, 94, 96, 99, 101, 105, 115, 116, 117, 119, 124, 130, 131, 134, 138]
+Kleenex's closest brackets: - current score: 166 count: 1
+  SpikeDragon - total difference: 117 current deficit: 39 possible gain: 56
+    elimination cushion: 17
+	differences: [12, 23, 40, 43, 44, 70, 75, 76, 77, 84, 86, 98, 101, 102, 105, 106, 107, 110, 115, 117, 119, 131, 134, 138, 143, 145]
+SpikeDragon's closest brackets: - current score: 205 count: 1
+  PSI_NESS - total difference: 31 current deficit: -9 possible gain: 8
+    elimination cushion: 17
+	differences: [19, 44, 48, 70, 83, 86, 90, 106, 107, 110, 119]
+Lord Bob Bree's closest brackets: - current score: 173 count: 1
+  Sniperdog - total difference: 68 current deficit: -4 possible gain: 40
+    elimination cushion: 44
+	differences: [6, 7, 11, 24, 35, 48, 52, 55, 77, 79, 90, 96, 98, 102, 110, 119, 124, 130, 132, 138]
+Xeybozn's closest brackets: - current score: 184 count: 1
+  Steevo - total difference: 323 current deficit: 19 possible gain: 268
+    elimination cushion: 249
+	differences: [7, 10, 19, 37, 39, 42, 43, 44, 52, 70, 77, 79, 86, 90, 98, 105, 106, 116, 117, 118, 124, 126, 129, 130, 131, 132, 135, 138, 139, 142, 144, 147, 149, 150]
+azuarc's closest brackets: - current score: 168 count: 1
+  Sniperdog - total difference: 157 current deficit: 1 possible gain: 24
+    elimination cushion: 23
+	differences: [11, 23, 26, 29, 39, 43, 44, 48, 64, 73, 75, 76, 77, 79, 85, 86, 94, 98, 101, 102, 107, 115, 118, 126, 131, 139, 150]
+hylianknight3's closest brackets: - current score: 197 count: 1
+  SpikeDragon - total difference: 94 current deficit: 8 possible gain: 40
+    elimination cushion: 32
+	differences: [7, 10, 11, 35, 44, 48, 70, 73, 78, 79, 83, 86, 90, 91, 101, 102, 103, 110, 115, 116, 119, 130, 144, 145, 148]
+Natwaf_akidna's closest brackets: - current score: 135 count: 1
+  Ranticoot - total difference: 196 current deficit: 56 possible gain: 104
+    elimination cushion: 48
+	differences: [3, 7, 10, 12, 26, 31, 37, 38, 39, 41, 42, 43, 46, 48, 52, 54, 55, 59, 66, 68, 70, 71, 73, 75, 83, 84, 85, 86, 90, 94, 96, 98, 101, 102, 105, 106, 107, 114, 115, 117, 129, 130, 131, 136, 138, 142, 145, 148, 149]
+SecretSquirrel's closest brackets: - current score: 187 count: 1
+  dimi - total difference: 139 current deficit: -1 possible gain: 92
+    elimination cushion: 93
+	differences: [11, 12, 37, 39, 41, 42, 48, 70, 85, 105, 107, 110, 113, 115, 117, 119, 131, 150]
+SuorGenoveffa's closest brackets: - current score: 178 count: 1
+  MMXcalibur - total difference: 126 current deficit: -2 possible gain: 48
+    elimination cushion: 50
+	differences: [7, 12, 23, 26, 34, 35, 42, 43, 44, 46, 52, 59, 60, 62, 68, 70, 73, 75, 76, 77, 78, 83, 86, 90, 94, 96, 99, 102, 103, 106, 113, 115, 116, 119, 124, 131, 138, 143, 146]
+GaryOak's closest brackets: - current score: 155 count: 1
+  SuorGenoveffa - total difference: 139 current deficit: 23 possible gain: 72
+    elimination cushion: 49
+	differences: [10, 11, 12, 14, 21, 24, 25, 39, 42, 48, 52, 59, 60, 63, 64, 68, 69, 70, 73, 75, 77, 90, 94, 95, 96, 98, 99, 101, 102, 107, 112, 115, 129, 130, 138, 140, 143, 144, 145, 146, 148]
+DpObliVion's closest brackets: - current score: 179 count: 1
+  pirate - total difference: 82 current deficit: 16 possible gain: 24
+    elimination cushion: 8
+	differences: [6, 12, 14, 19, 23, 31, 42, 43, 44, 48, 55, 63, 70, 75, 76, 78, 85, 86, 96, 102, 103, 105, 107, 116, 117, 129, 131, 149]
+pirate's closest brackets: - current score: 195 count: 1
+  Joelypoely - total difference: 30 current deficit: -10 possible gain: 16
+    elimination cushion: 26
+	differences: [12, 43, 70, 75, 99, 110, 130, 148]
+LusterSoldier's closest brackets: - current score: 188 count: 1
+  TRE - total difference: 78 current deficit: 4 possible gain: 24
+    elimination cushion: 20
+	differences: [10, 12, 23, 52, 70, 75, 76, 77, 85, 90, 91, 102, 105, 106, 107, 110, 116, 117, 119, 130, 131]
+AxemRedRanger's closest brackets: - current score: 190 count: 1
+  Steevo - total difference: 79 current deficit: 13 possible gain: 32
+    elimination cushion: 19
+	differences: [19, 23, 26, 37, 39, 43, 46, 48, 52, 73, 76, 77, 86, 90, 91, 96, 101, 102, 106, 110, 115, 119, 124, 130, 138]
+ZenOfThunder's closest brackets: - current score: 183 count: 1
+  Steevo - total difference: 112 current deficit: 20 possible gain: 64
+    elimination cushion: 44
+	differences: [10, 12, 14, 19, 23, 37, 39, 44, 69, 70, 73, 76, 77, 96, 98, 99, 101, 102, 106, 115, 119, 120, 130, 132, 138, 144, 145, 148]
+t_kizzle's closest brackets: - current score: 185 count: 1
+  Joelypoely - total difference: 24 current deficit: 0 possible gain: 8
+    elimination cushion: 8
+	differences: [12, 39, 43, 44, 70, 75, 86, 90, 99, 143]
+BetrayedTangy's closest brackets: - current score: 179 count: 1
+  Osfan - total difference: 76 current deficit: 10 possible gain: 48
+    elimination cushion: 38
+	differences: [6, 7, 10, 11, 19, 24, 39, 41, 70, 79, 85, 94, 98, 107, 110, 124, 130, 132, 138, 146, 148]
+BK_Sheikah00's closest brackets: - current score: 181 count: 1
+  yoblazer - total difference: 93 current deficit: 1 possible gain: 32
+    elimination cushion: 31
+	differences: [7, 10, 12, 34, 37, 44, 48, 70, 75, 78, 79, 86, 90, 96, 100, 101, 102, 103, 106, 107, 114, 115, 143, 145, 148, 149]
+Lopen's closest brackets: - current score: 128 count: 1
+  Xuxon - total difference: 250 current deficit: 46 possible gain: 168
+    elimination cushion: 122
+	differences: [6, 11, 24, 26, 34, 41, 42, 43, 48, 55, 58, 64, 68, 70, 72, 73, 75, 77, 78, 85, 94, 97, 98, 100, 101, 102, 103, 107, 113, 114, 115, 119, 122, 126, 127, 128, 129, 130, 132, 134, 136, 137, 138, 140, 143, 144, 145, 146, 148, 149]
+MZero's closest brackets: - current score: 173 count: 1
+  Osfan - total difference: 60 current deficit: 16 possible gain: 24
+    elimination cushion: 8
+	differences: [6, 7, 10, 24, 26, 44, 68, 75, 77, 85, 86, 88, 90, 106, 107, 114, 139, 143, 149]
+KingBartz's closest brackets: - current score: 171 count: 1
+  Ranticoot - total difference: 160 current deficit: 20 possible gain: 96
+    elimination cushion: 76
+	differences: [3, 6, 7, 12, 14, 24, 26, 31, 34, 35, 39, 44, 52, 63, 68, 70, 77, 78, 84, 86, 90, 94, 96, 97, 98, 102, 103, 113, 116, 119, 120, 124, 126, 128, 131, 132, 138, 145, 146, 148, 149]
+Cody's closest brackets: - current score: 192 count: 2
+  SpikeDragon - total difference: 71 current deficit: 13 possible gain: 48
+    elimination cushion: 35
+	differences: [14, 43, 44, 77, 83, 86, 90, 105, 117, 124, 129, 130, 131, 145, 149]
+  Osfan - total difference: 41 current deficit: -3 possible gain: 32
+    elimination cushion: 35
+	differences: [6, 7, 14, 24, 43, 77, 79, 119, 124, 130, 149]
+Wreath's closest brackets: - current score: 178 count: 1
+  foxhead84 - total difference: 83 current deficit: 9 possible gain: 56
+    elimination cushion: 47
+	differences: [19, 70, 75, 77, 79, 85, 101, 107, 115, 132, 136, 140, 143, 144, 146]
+MoogleKupo's closest brackets: - current score: 166 count: 1
+  pirate - total difference: 83 current deficit: 29 possible gain: 32
+    elimination cushion: 3
+	differences: [6, 7, 10, 24, 40, 42, 43, 55, 59, 75, 79, 83, 84, 94, 98, 101, 106, 110, 114, 115, 124, 129, 130, 148]
+XIII's closest brackets: - current score: 196 count: 1
+  Joelypoely - total difference: 49 current deficit: -11 possible gain: 16
+    elimination cushion: 27
+	differences: [10, 12, 37, 44, 48, 70, 77, 86, 90, 99, 101, 110, 115, 119, 149]
+cyko's closest brackets: - current score: 169 count: 1
+  Xuxon - total difference: 109 current deficit: 5 possible gain: 72
+    elimination cushion: 67
+	differences: [12, 21, 24, 41, 42, 43, 55, 75, 77, 84, 85, 90, 91, 96, 105, 110, 116, 119, 124, 129, 130, 132, 138, 140, 143, 144]
+trogita's closest brackets: - current score: 162 count: 1
+  XIII - total difference: 342 current deficit: 34 possible gain: 88
+    elimination cushion: 54
+	differences: [12, 26, 37, 43, 44, 48, 70, 75, 77, 86, 90, 96, 99, 101, 113, 114, 115, 116, 122, 129, 130, 133, 136, 137, 140, 141, 143, 144, 145, 147, 148, 149, 150]
+TsunamiXXVIII's closest brackets: - current score: 180 count: 1
+  SuorGenoveffa - total difference: 134 current deficit: -2 possible gain: 48
+    elimination cushion: 50
+	differences: [6, 7, 10, 12, 24, 26, 31, 39, 41, 42, 46, 52, 55, 63, 70, 73, 77, 78, 83, 85, 86, 90, 94, 96, 99, 102, 103, 106, 107, 116, 118, 124, 126, 130, 131, 138, 139, 143, 148]
+scaryice's closest brackets: - current score: 184 count: 1
+  TRE - total difference: 70 current deficit: 8 possible gain: 16
+    elimination cushion: 8
+	differences: [7, 12, 14, 19, 37, 39, 52, 63, 70, 73, 75, 77, 85, 90, 96, 101, 107, 113, 115, 116, 129, 130]
+NateInDisney's closest brackets: - current score: 141 count: 1
+  SpikeDragon - total difference: 224 current deficit: 64 possible gain: 144
+    elimination cushion: 80
+	differences: [2, 3, 11, 12, 14, 19, 23, 24, 34, 39, 40, 42, 43, 44, 55, 59, 70, 76, 77, 84, 86, 87, 94, 96, 97, 99, 102, 106, 108, 109, 113, 117, 118, 125, 128, 131, 132, 135, 136, 139, 140, 142, 144, 145, 148, 149]
+Zylothewolf's closest brackets: - current score: 200 count: 1
+  SpikeDragon - total difference: 63 current deficit: 5 possible gain: 24
+    elimination cushion: 19
+	differences: [10, 11, 37, 42, 48, 63, 64, 70, 75, 79, 83, 90, 96, 101, 102, 110, 115, 119, 129, 132]
+ExThaNemesis's closest brackets: - current score: 174 count: 1
+  pirate - total difference: 97 current deficit: 21 possible gain: 40
+    elimination cushion: 19
+	differences: [11, 12, 26, 39, 43, 44, 48, 63, 64, 70, 75, 77, 79, 83, 86, 90, 96, 98, 105, 114, 116, 117, 119, 120, 129, 131, 132]
+Advokaiser's closest brackets: - current score: 184 count: 1
+  haloiscoolisbak - total difference: 41 current deficit: 5 possible gain: 24
+    elimination cushion: 19
+	differences: [7, 10, 11, 14, 19, 39, 42, 43, 48, 106, 107, 119, 131, 149]
+PumpkinCoach's closest brackets: - current score: 169 count: 1
+  Zylothewolf - total difference: 165 current deficit: 31 possible gain: 104
+    elimination cushion: 73
+	differences: [6, 11, 21, 23, 24, 26, 35, 37, 38, 42, 44, 48, 51, 63, 64, 75, 76, 77, 83, 86, 95, 96, 98, 101, 102, 112, 115, 118, 122, 124, 129, 130, 134, 137, 138, 139, 140, 143, 144, 145]
+SwiftyDC's closest brackets: - current score: 186 count: 2
+  SpikeDragon - total difference: 91 current deficit: 19 possible gain: 40
+    elimination cushion: 21
+	differences: [7, 10, 11, 12, 26, 39, 44, 48, 64, 70, 77, 79, 86, 96, 98, 101, 102, 110, 115, 118, 119, 129, 145, 148, 149]
+  Osfan - total difference: 87 current deficit: 3 possible gain: 24
+    elimination cushion: 21
+	differences: [6, 10, 11, 12, 24, 26, 39, 48, 64, 70, 77, 83, 90, 96, 98, 101, 102, 105, 110, 115, 117, 118, 131, 148, 149]
+raytan's closest brackets: - current score: 131 count: 1
+  PumpkinCoach - total difference: 314 current deficit: 38 possible gain: 160
+    elimination cushion: 122
+	differences: [6, 19, 23, 26, 31, 34, 37, 40, 42, 43, 44, 47, 51, 55, 59, 63, 65, 68, 70, 73, 75, 76, 77, 84, 86, 88, 94, 95, 96, 97, 98, 101, 102, 104, 105, 106, 107, 108, 110, 111, 112, 113, 115, 117, 118, 119, 120, 130, 131, 132, 139, 140, 141, 143, 144, 145, 147, 148, 149]
+foxhead84's closest brackets: - current score: 187 count: 1
+  pirate - total difference: 42 current deficit: 8 possible gain: 24
+    elimination cushion: 16
+	differences: [11, 48, 77, 90, 110, 116, 119, 130, 143]
+handsomeboy's closest brackets: - current score: 172 count: 1
+  MetalmindStats - total difference: 134 current deficit: 8 possible gain: 56
+    elimination cushion: 48
+	differences: [3, 7, 11, 19, 23, 24, 43, 48, 60, 64, 70, 76, 77, 96, 100, 101, 102, 105, 107, 113, 114, 115, 117, 118, 124, 129, 130, 131, 139, 143, 145]
+voltch's closest brackets: - current score: 162 count: 1
+  Cody - total difference: 218 current deficit: 30 possible gain: 48
+    elimination cushion: 18
+	differences: [10, 12, 14, 21, 23, 24, 34, 52, 55, 59, 70, 75, 76, 79, 86, 90, 94, 96, 98, 99, 102, 114, 122, 129, 134, 137, 138, 140, 143, 144, 145, 148, 149, 150]
+Sniperdog's closest brackets: - current score: 169 count: 1
+  SpikeDragon - total difference: 220 current deficit: 36 possible gain: 56
+    elimination cushion: 20
+	differences: [12, 44, 70, 83, 85, 86, 90, 98, 99, 105, 107, 114, 117, 122, 129, 131, 133, 137, 141, 143, 145, 147, 148, 149]
+SuperNiceDog's closest brackets: - current score: 137 count: 1
+  cyko - total difference: 394 current deficit: 32 possible gain: 104
+    elimination cushion: 72
+	differences: [3, 7, 19, 21, 24, 34, 35, 41, 44, 46, 52, 55, 65, 68, 70, 73, 75, 77, 78, 84, 85, 86, 90, 91, 96, 99, 100, 101, 102, 103, 105, 107, 110, 114, 115, 116, 119, 122, 124, 129, 130, 133, 134, 137, 138, 141, 143, 144, 145, 146, 147, 148, 150]
+OrangeCrush980's closest brackets: - current score: 186 count: 1
+  SpikeDragon - total difference: 77 current deficit: 19 possible gain: 40
+    elimination cushion: 21
+	differences: [11, 12, 44, 70, 75, 83, 86, 90, 99, 110, 114, 119, 122, 129, 138, 145, 149]
+Xuxon's closest brackets: - current score: 174 count: 1
+  cyko - total difference: 109 current deficit: -5 possible gain: 72
+    elimination cushion: 77
+	differences: [12, 21, 24, 41, 42, 43, 55, 75, 77, 84, 85, 90, 91, 96, 105, 110, 116, 119, 124, 129, 130, 132, 138, 140, 143, 144]
+DrFootball's closest brackets: - current score: 167 count: 1
+  handsomeboy - total difference: 129 current deficit: 5 possible gain: 80
+    elimination cushion: 75
+	differences: [3, 6, 23, 26, 37, 42, 43, 75, 76, 79, 86, 96, 101, 102, 106, 107, 115, 116, 124, 132, 138, 142, 143, 146, 148]
+haloiscoolisbak's closest brackets: - current score: 189 count: 1
+  Advokaiser - total difference: 41 current deficit: -5 possible gain: 24
+    elimination cushion: 29
+	differences: [7, 10, 11, 14, 19, 39, 42, 43, 48, 106, 107, 119, 131, 149]
+alblito's closest brackets: - current score: 169 count: 1
+  SpikeDragon - total difference: 120 current deficit: 36 possible gain: 56
+    elimination cushion: 20
+	differences: [11, 19, 24, 38, 41, 44, 70, 75, 79, 83, 85, 86, 90, 100, 101, 102, 105, 107, 114, 115, 117, 129, 131, 132, 138, 145, 146, 148]
+paulg's closest brackets: - current score: 182 count: 1
+  Wreath - total difference: 234 current deficit: -4 possible gain: 172
+    elimination cushion: 176
+	differences: [7, 12, 23, 39, 42, 55, 70, 73, 75, 76, 79, 85, 90, 91, 101, 102, 105, 107, 113, 115, 117, 123, 124, 130, 131, 134, 138, 139, 143, 145, 148, 149, 150]
+ZaziGuado's closest brackets: - current score: 132 count: 1
+  paulg - total difference: 436 current deficit: 50 possible gain: 112
+    elimination cushion: 62
+	differences: [3, 6, 7, 12, 24, 26, 30, 31, 40, 43, 44, 54, 55, 59, 63, 64, 68, 69, 70, 74, 75, 77, 79, 84, 85, 86, 91, 94, 95, 96, 99, 100, 103, 106, 107, 110, 112, 113, 114, 116, 117, 118, 119, 122, 124, 125, 126, 127, 129, 131, 132, 135, 136, 137, 138, 139, 142, 143, 146, 147, 149, 150]
+Lockes Ragnarok's closest brackets: - current score: 152 count: 1
+  XIII - total difference: 170 current deficit: 44 possible gain: 96
+    elimination cushion: 52
+	differences: [2, 6, 10, 19, 34, 38, 39, 40, 42, 43, 58, 63, 68, 74, 77, 83, 84, 85, 86, 94, 96, 97, 101, 102, 106, 107, 113, 115, 116, 122, 129, 130, 137, 138, 139, 140, 143, 144, 146, 148, 149]
+Joelypoely's closest brackets: - current score: 185 count: 1
+  XIII - total difference: 49 current deficit: 11 possible gain: 16
+    elimination cushion: 5
+	differences: [10, 12, 37, 44, 48, 70, 77, 86, 90, 99, 101, 110, 115, 119, 149]
+Furious Fara's closest brackets: - current score: 153 count: 1
+  Sniperdog - total difference: 90 current deficit: 16 possible gain: 48
+    elimination cushion: 32
+	differences: [10, 11, 14, 44, 47, 63, 75, 85, 86, 88, 94, 96, 100, 102, 107, 110, 116, 119, 130, 134, 138, 139]
+MMXcalibur's closest brackets: - current score: 176 count: 1
+  SuorGenoveffa - total difference: 126 current deficit: 2 possible gain: 48
+    elimination cushion: 46
+	differences: [7, 12, 23, 26, 34, 35, 42, 43, 44, 46, 52, 59, 60, 62, 68, 70, 73, 75, 76, 77, 78, 83, 86, 90, 94, 96, 99, 102, 103, 106, 113, 115, 116, 119, 124, 131, 138, 143, 146]
+jacko_vdz's closest brackets: - current score: 181 count: 1
+  dimi - total difference: 41 current deficit: 5 possible gain: 16
+    elimination cushion: 11
+	differences: [6, 7, 11, 12, 14, 37, 44, 70, 79, 86, 90, 91, 106, 107, 143, 148]
+Wizardsfan's closest brackets: - current score: 125 count: 1
+  Lord Bob Bree - total difference: 246 current deficit: 48 possible gain: 136
+    elimination cushion: 88
+	differences: [1, 2, 3, 10, 11, 14, 19, 21, 23, 24, 26, 36, 40, 42, 43, 44, 48, 63, 65, 66, 73, 75, 76, 79, 82, 83, 84, 85, 86, 90, 91, 95, 97, 98, 101, 102, 105, 106, 107, 112, 113, 115, 117, 118, 119, 120, 130, 131, 132, 134, 138, 139, 147]
+chocoboslayer's closest brackets: - current score: 165 count: 1
+  SecretSquirrel - total difference: 244 current deficit: 22 possible gain: 160
+    elimination cushion: 138
+	differences: [10, 14, 19, 21, 34, 40, 41, 42, 48, 52, 75, 77, 83, 84, 85, 86, 90, 91, 96, 100, 102, 105, 106, 107, 110, 113, 114, 115, 117, 119, 124, 129, 130, 131, 138, 140, 143, 144, 146, 147, 148, 149]
+pyresword's closest brackets: - current score: 188 count: 1
+  SpikeDragon - total difference: 55 current deficit: 17 possible gain: 32
+    elimination cushion: 15
+	differences: [37, 43, 44, 75, 83, 86, 90, 105, 117, 119, 131, 132, 149]
+ZeldaTPLink's closest brackets: - current score: 175 count: 3
+  SpikeDragon - total difference: 92 current deficit: 30 possible gain: 48
+    elimination cushion: 18
+	differences: [11, 12, 19, 43, 44, 48, 70, 75, 83, 86, 90, 100, 106, 110, 114, 116, 119, 129, 130, 143, 145, 149]
+  haloiscoolisbak - total difference: 80 current deficit: 14 possible gain: 32
+    elimination cushion: 18
+	differences: [7, 10, 12, 14, 43, 52, 70, 75, 90, 100, 105, 106, 107, 110, 114, 117, 129, 131, 148, 149]
+  Osfan - total difference: 86 current deficit: 14 possible gain: 32
+    elimination cushion: 18
+	differences: [6, 7, 11, 12, 19, 24, 43, 48, 70, 75, 79, 100, 105, 106, 110, 114, 116, 117, 130, 131, 143, 149]
+CasanovaZelos's closest brackets: - current score: 181 count: 1
+  Wreath - total difference: 151 current deficit: -3 possible gain: 64
+    elimination cushion: 67
+	differences: [6, 7, 10, 14, 26, 39, 42, 43, 44, 52, 64, 70, 75, 77, 79, 83, 85, 86, 90, 91, 94, 100, 101, 102, 105, 107, 110, 114, 115, 116, 117, 119, 124, 129, 130, 131, 132, 138, 143]
+Osfan's closest brackets: - current score: 189 count: 1
+  SpikeDragon - total difference: 56 current deficit: 16 possible gain: 32
+    elimination cushion: 16
+	differences: [6, 7, 24, 44, 79, 83, 86, 90, 105, 117, 119, 129, 131, 145]
+CybrMonkey's closest brackets: - current score: 154 count: 1
+  CasanovaZelos - total difference: 171 current deficit: 27 possible gain: 72
+    elimination cushion: 45
+	differences: [3, 6, 7, 10, 11, 14, 19, 21, 23, 26, 29, 37, 38, 39, 42, 43, 44, 52, 63, 73, 76, 77, 78, 79, 83, 86, 90, 91, 96, 100, 101, 102, 103, 105, 107, 110, 114, 115, 116, 117, 119, 124, 128, 131, 132, 136, 138, 146]
+Yesmar's closest brackets: - current score: 176 count: 2
+  SpikeDragon - total difference: 93 current deficit: 29 possible gain: 56
+    elimination cushion: 27
+	differences: [37, 48, 64, 79, 83, 90, 94, 96, 100, 105, 114, 117, 126, 129, 131, 139, 143, 145, 149]
+  MZero - total difference: 57 current deficit: -3 possible gain: 24
+    elimination cushion: 27
+	differences: [10, 26, 37, 48, 64, 68, 75, 77, 85, 88, 90, 94, 96, 100, 106, 107, 119, 126, 145]
+pronouncemyname's closest brackets: - current score: 191 count: 1
+  Steevo - total difference: 84 current deficit: 12 possible gain: 48
+    elimination cushion: 36
+	differences: [11, 12, 19, 23, 37, 43, 44, 48, 70, 76, 83, 86, 90, 96, 97, 102, 113, 119, 124, 127, 132, 145, 148]
+jcgamer's closest brackets: - current score: 146 count: 1
+  PumpkinCoach - total difference: 313 current deficit: 23 possible gain: 160
+    elimination cushion: 137
+	differences: [1, 7, 11, 14, 19, 20, 21, 23, 24, 26, 37, 38, 39, 40, 42, 43, 44, 46, 47, 51, 52, 53, 55, 58, 62, 65, 68, 73, 74, 75, 76, 77, 79, 82, 83, 84, 85, 86, 87, 88, 90, 91, 94, 95, 96, 98, 101, 102, 105, 106, 107, 108, 112, 114, 115, 117, 118, 122, 125, 126, 127, 128, 129, 130, 131, 132, 135, 136, 137, 139, 142, 144, 146, 148, 149]
+</span>

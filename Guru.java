@@ -61,7 +61,7 @@ public class Guru {
 		scores = calculateScores(results);
 		System.out.println("Current Match: " + nextMatch + " Remaining Brackets: " + entrants.length);
 		outputClosestBrackets();
-		
+		//checkIllegalBrackets();
 		//How many matches to check - default is 1
 		if(args.length <= 0)
 			checkNext(1,"");
@@ -69,6 +69,42 @@ public class Guru {
 			checkNext(Integer.parseInt(args[0]),"");
 		
 		//calculateScenarios("");
+	}
+	
+	public static void checkIllegalBrackets()
+	{
+		File conflictedPlayers = new File("conflicts.txt");
+		FileWriter writer;
+		try {
+			writer = new FileWriter(conflictedPlayers);
+		 
+			int[][] conflicts = {
+					{120,128},{121,128},{122,129},{123,129},
+					{124,130},{125,130},{126,131},{127,131},
+					{132,136},{133,137},{134,138},{135,139},
+					{140,144},{141,145},{146,148}
+			};try {
+			for(int player = 0; player < entrants.length; player++)
+			{
+				String[] picks = allPicks.get(player);
+				for(int i = 0; i < 15; i++)
+				{
+					if(picks[conflicts[i][0]].equals(picks[conflicts[i][1]]))
+					{
+						
+							writer.write(entrants[player]+" has a conflict between matches "+conflicts[i][0]+" and "+conflicts[i][1]+ " picking "+picks[conflicts[i][1]]+"\n");
+						
+					}
+				}
+			}
+			writer.close();
+			} catch (IOException e) {
+							
+			}
+		}catch (IOException e1) {
+			
+		}
+		
 	}
 	
 	//simulates the next 'i' matches to find eliminations
