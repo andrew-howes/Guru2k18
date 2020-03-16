@@ -1,0 +1,325 @@
+<span class="nocode">
+updated through Kirby's win
+COOKIE's Difference from cookie: 
+ total difference: 0	differences: []
+demphra's Difference from cookie: 
+ total difference: 252	differences: [10, 11, 12, 37, 38, 40, 44, 48, 70, 73, 77, 78, 83, 84, 85, 86, 91, 94, 98, 99, 101, 103, 105, 106, 107, 110, 115, 116, 117, 118, 119, 124, 127, 128, 130, 131, 132, 136, 138, 139, 140, 142, 144, 146, 148, 149]
+Ngamer's Difference from cookie: 
+ total difference: 327	differences: [7, 11, 12, 37, 42, 43, 63, 70, 96, 98, 99, 100, 102, 105, 106, 114, 117, 119, 122, 129, 131, 132, 133, 137, 141, 143, 145, 146, 147, 148, 149, 150]
+yoblazer's Difference from cookie: 
+ total difference: 113	differences: [7, 11, 12, 34, 37, 43, 48, 70, 75, 77, 79, 90, 100, 101, 102, 105, 114, 115, 116, 117, 119, 129, 130, 131, 146, 149]
+Ange's Difference from cookie: 
+ total difference: 160	differences: [7, 10, 11, 12, 21, 37, 43, 44, 46, 52, 63, 64, 70, 73, 75, 78, 86, 90, 91, 96, 101, 103, 105, 107, 110, 113, 115, 116, 117, 119, 124, 130, 131, 132, 138, 145, 146, 148, 149]
+Leon's Difference from cookie: 
+ total difference: 95	differences: [26, 37, 43, 70, 75, 77, 85, 101, 107, 110, 113, 114, 115, 116, 129, 130, 132, 139, 148]
+abdou's Difference from cookie: 
+ total difference: 105	differences: [37, 43, 44, 70, 79, 86, 105, 106, 116, 117, 119, 130, 131, 132, 138, 145, 146, 148, 149]
+Ranticoot's Difference from cookie: 
+ total difference: 198	differences: [3, 7, 10, 11, 12, 14, 19, 23, 26, 37, 39, 42, 44, 52, 70, 73, 76, 77, 86, 90, 97, 101, 102, 105, 106, 113, 115, 117, 119, 128, 130, 131, 132, 136, 138, 140, 142, 144, 145, 148]
+Shonen_Bat's Difference from cookie: 
+ total difference: 326	differences: [10, 11, 12, 19, 31, 37, 70, 77, 84, 86, 94, 96, 99, 101, 105, 106, 110, 114, 115, 117, 118, 122, 124, 126, 129, 130, 131, 133, 137, 138, 139, 141, 142, 143, 145, 146, 147, 148, 149]
+Ringworm's Difference from cookie: 
+ total difference: 101	differences: [10, 11, 12, 19, 37, 39, 40, 44, 64, 70, 75, 84, 86, 99, 106, 110, 116, 124, 130, 138, 142, 146]
+PSI_NESS's Difference from cookie: 
+ total difference: 59	differences: [19, 37, 43, 44, 48, 86, 105, 106, 107, 117, 131, 145, 148, 149]
+meche's Difference from cookie: 
+ total difference: 167	differences: [3, 12, 14, 19, 23, 37, 42, 54, 63, 70, 75, 76, 95, 96, 98, 102, 105, 106, 112, 116, 117, 119, 124, 129, 130, 131, 132, 138, 139, 142, 143, 146]
+Steiner's Difference from cookie: 
+ total difference: 87	differences: [11, 12, 37, 70, 75, 77, 90, 100, 114, 119, 129, 142, 146, 148]
+PrinceKaro's Difference from cookie: 
+ total difference: 185	differences: [3, 6, 7, 12, 19, 20, 24, 37, 42, 46, 47, 55, 63, 68, 70, 74, 77, 78, 79, 85, 86, 88, 91, 94, 96, 98, 102, 103, 105, 106, 107, 110, 116, 117, 118, 122, 124, 129, 130, 131, 132, 137, 138, 143, 145, 148, 149]
+dimi's Difference from cookie: 
+ total difference: 50	differences: [7, 14, 37, 43, 91, 107, 119, 143, 146, 148, 149]
+Big Bob's Difference from cookie: 
+ total difference: 83	differences: [3, 6, 12, 14, 19, 24, 37, 39, 40, 42, 43, 50, 63, 70, 76, 84, 86, 96, 102, 105, 106, 113, 117, 130, 131, 146, 149]
+TRE's Difference from cookie: 
+ total difference: 122	differences: [11, 37, 43, 52, 75, 85, 90, 107, 110, 119, 129, 134, 138, 142, 143, 145, 146, 148]
+Ulti's Difference from cookie: 
+ total difference: 310	differences: [10, 11, 12, 23, 26, 37, 43, 44, 52, 63, 70, 75, 76, 77, 79, 86, 90, 96, 99, 102, 106, 110, 114, 119, 122, 129, 130, 133, 137, 141, 143, 145, 147, 148, 149, 150]
+theawesomestevr's Difference from cookie: 
+ total difference: 133	differences: [6, 11, 34, 37, 39, 43, 44, 46, 48, 51, 52, 60, 64, 73, 78, 79, 85, 86, 90, 101, 103, 107, 114, 115, 116, 119, 129, 130, 142, 143, 146]
+MetalmindStats's Difference from cookie: 
+ total difference: 199	differences: [3, 7, 11, 19, 37, 40, 43, 44, 48, 60, 64, 70, 73, 84, 86, 100, 101, 105, 106, 114, 115, 117, 118, 129, 131, 132, 138, 139, 145, 148, 150]
+linkhatesganon's Difference from cookie: 
+ total difference: 224	differences: [3, 19, 24, 26, 37, 38, 39, 63, 75, 77, 83, 86, 91, 96, 101, 102, 110, 115, 119, 122, 124, 129, 130, 132, 137, 138, 142, 143, 146, 147, 149]
+whatisurnameplz's Difference from cookie: 
+ total difference: 129	differences: [11, 34, 37, 39, 43, 44, 48, 63, 64, 73, 78, 79, 86, 88, 90, 91, 96, 101, 102, 103, 107, 115, 116, 119, 130, 132, 134, 143, 145, 148, 149]
+MarioSuperstar's Difference from cookie: 
+ total difference: 121	differences: [37, 39, 52, 70, 73, 90, 101, 106, 107, 110, 115, 116, 119, 129, 130, 131, 134, 143, 145, 148, 149]
+swirldude's Difference from cookie: 
+ total difference: 86	differences: [24, 37, 39, 43, 46, 52, 79, 90, 100, 106, 110, 114, 119, 129, 142, 146]
+Z1mZum's Difference from cookie: 
+ total difference: 275	differences: [3, 7, 10, 11, 14, 27, 31, 34, 37, 40, 42, 46, 54, 59, 63, 84, 86, 94, 96, 105, 106, 117, 125, 129, 131, 135, 142, 146, 147, 148, 149, 150]
+Steevo's Difference from cookie: 
+ total difference: 151	differences: [7, 11, 19, 23, 26, 37, 44, 73, 76, 77, 86, 101, 102, 107, 110, 115, 116, 117, 124, 129, 130, 131, 138, 142, 145, 146, 148]
+Wibo's Difference from cookie: 
+ total difference: 147	differences: [6, 12, 19, 23, 24, 31, 37, 42, 43, 55, 63, 70, 76, 77, 79, 94, 96, 99, 102, 110, 119, 124, 130, 131, 134, 138, 142, 145, 146, 148]
+Kleenex's Difference from cookie: 
+ total difference: 113	differences: [12, 23, 37, 40, 44, 70, 75, 76, 77, 83, 84, 86, 90, 98, 101, 102, 106, 107, 115, 119, 134, 138, 143, 145, 148, 149]
+foolmo's Difference from cookie: 
+ total difference: 206	differences: [2, 3, 6, 10, 12, 22, 23, 24, 27, 30, 31, 37, 39, 42, 46, 47, 50, 55, 69, 70, 76, 77, 84, 86, 88, 90, 94, 96, 97, 98, 99, 102, 103, 106, 113, 116, 119, 124, 128, 129, 130, 131, 132, 136, 138, 142, 146, 149]
+SpikeDragon's Difference from cookie: 
+ total difference: 80	differences: [37, 43, 70, 83, 90, 105, 110, 117, 119, 124, 131, 138, 145, 148, 149]
+Lord Bob Bree's Difference from cookie: 
+ total difference: 238	differences: [6, 7, 11, 12, 24, 35, 37, 43, 44, 48, 52, 55, 70, 77, 79, 85, 86, 90, 96, 99, 102, 107, 114, 122, 124, 129, 132, 133, 137, 138, 141, 143, 145, 147, 148, 149]
+Janus5k's Difference from cookie: 
+ total difference: 158	differences: [10, 12, 23, 24, 26, 37, 39, 40, 44, 63, 70, 76, 77, 84, 86, 88, 95, 96, 100, 102, 106, 107, 112, 114, 116, 124, 126, 129, 130, 132, 138, 139, 142, 148]
+Xeybozn's Difference from cookie: 
+ total difference: 349	differences: [10, 11, 23, 26, 37, 39, 42, 43, 52, 70, 73, 76, 77, 79, 90, 98, 101, 102, 106, 110, 115, 118, 124, 126, 129, 130, 131, 132, 135, 138, 139, 142, 144, 145, 146, 147, 148, 149, 150]
+azuarc's Difference from cookie: 
+ total difference: 339	differences: [11, 12, 23, 26, 29, 37, 39, 48, 64, 70, 73, 75, 76, 77, 79, 94, 99, 101, 102, 110, 114, 115, 118, 119, 122, 126, 129, 131, 133, 137, 139, 141, 143, 145, 147, 148, 149, 150]
+hylianknight3's Difference from cookie: 
+ total difference: 98	differences: [7, 10, 11, 35, 37, 43, 44, 48, 73, 78, 79, 86, 91, 101, 102, 103, 105, 115, 116, 117, 119, 130, 131, 144, 149]
+davidponte's Difference from cookie: 
+ total difference: 75	differences: [37, 77, 106, 110, 116, 130, 142, 146, 148]
+MikeTavish's Difference from cookie: 
+ total difference: 142	differences: [6, 11, 14, 19, 20, 35, 37, 39, 40, 42, 44, 46, 55, 62, 74, 75, 78, 84, 86, 88, 94, 96, 103, 105, 106, 107, 113, 116, 117, 124, 130, 131, 132, 138, 145, 146, 148, 149]
+Natwaf_akidna's Difference from cookie: 
+ total difference: 193	differences: [11, 14, 19, 23, 31, 37, 38, 41, 43, 44, 46, 48, 54, 55, 59, 66, 68, 71, 75, 76, 77, 83, 84, 85, 86, 90, 94, 96, 97, 98, 101, 102, 106, 107, 113, 114, 115, 119, 128, 129, 130, 136, 140, 142, 144, 149]
+SecretSquirrel's Difference from cookie: 
+ total difference: 176	differences: [7, 11, 12, 14, 37, 39, 41, 42, 43, 48, 70, 85, 91, 105, 107, 110, 113, 115, 117, 119, 131, 143, 146, 148, 149, 150]
+junk_funk's Difference from cookie: 
+ total difference: 167	differences: [6, 12, 19, 23, 31, 37, 44, 48, 59, 70, 76, 77, 78, 86, 90, 94, 98, 102, 103, 105, 106, 110, 116, 117, 118, 119, 129, 130, 131, 142, 145, 146, 148, 149]
+nkansas's Difference from cookie: 
+ total difference: 154	differences: [10, 12, 14, 23, 24, 26, 37, 42, 70, 73, 76, 77, 78, 87, 91, 99, 101, 102, 103, 107, 108, 110, 115, 116, 118, 119, 124, 130, 132, 138, 142, 146]
+SuorGenoveffa's Difference from cookie: 
+ total difference: 143	differences: [6, 12, 19, 26, 37, 39, 42, 70, 77, 78, 79, 83, 91, 99, 101, 102, 103, 105, 106, 110, 115, 116, 117, 122, 124, 129, 130, 131, 137, 138, 143, 149]
+GaryOak's Difference from cookie: 
+ total difference: 218	differences: [6, 10, 11, 14, 19, 21, 24, 25, 26, 37, 48, 52, 59, 60, 63, 64, 68, 69, 73, 75, 77, 78, 79, 83, 90, 91, 94, 95, 96, 98, 99, 101, 102, 103, 105, 106, 107, 110, 112, 115, 116, 117, 122, 124, 129, 130, 131, 137, 138, 140, 143, 144, 145, 146, 148, 149]
+DpObliVion's Difference from cookie: 
+ total difference: 132	differences: [6, 12, 14, 19, 23, 31, 37, 42, 44, 48, 55, 63, 70, 76, 78, 85, 86, 96, 102, 103, 105, 107, 110, 116, 117, 129, 130, 131, 142, 146, 149]
+JONALEON's Difference from cookie: 
+ total difference: 136	differences: [6, 23, 24, 37, 39, 41, 42, 63, 70, 76, 85, 91, 94, 96, 102, 107, 110, 114, 116, 119, 124, 129, 130, 131, 138, 142, 146]
+pirate's Difference from cookie: 
+ total difference: 56	differences: [37, 43, 75, 110, 130, 142, 146]
+SgtSphynx's Difference from cookie: 
+ total difference: 219	differences: [3, 6, 7, 10, 11, 19, 21, 24, 26, 31, 35, 37, 40, 42, 46, 51, 54, 55, 63, 65, 68, 69, 70, 75, 76, 77, 84, 90, 94, 95, 96, 98, 99, 101, 102, 105, 106, 108, 112, 115, 117, 118, 119, 124, 126, 129, 130, 131, 138, 139, 142, 143, 146, 148]
+LusterSoldier's Difference from cookie: 
+ total difference: 162	differences: [10, 11, 12, 23, 37, 43, 70, 76, 77, 91, 102, 105, 106, 116, 117, 119, 129, 130, 131, 134, 138, 142, 143, 145, 146, 148]
+ AxemRedRanger's Difference from cookie: 
+ total difference: 133	differences: [7, 11, 37, 39, 43, 44, 46, 48, 52, 86, 90, 91, 96, 101, 105, 106, 115, 116, 117, 119, 130, 131, 142, 145, 146, 148]
+ZenOfThunder's Difference from cookie: 
+ total difference: 174	differences: [7, 10, 11, 12, 14, 26, 37, 39, 69, 70, 77, 86, 96, 98, 99, 101, 102, 105, 106, 110, 115, 116, 117, 119, 120, 124, 130, 131, 132, 138, 142, 144, 146]
+t_kizzle's Difference from cookie: 
+ total difference: 68	differences: [37, 39, 43, 44, 70, 75, 86, 90, 142, 143, 146, 148]
+ Keltiq's Difference from cookie: 
+ total difference: 141	differences: [6, 24, 31, 37, 39, 44, 63, 70, 75, 86, 94, 96, 105, 106, 110, 114, 116, 117, 124, 129, 130, 131, 138, 142, 146, 148]
+BetrayedTangy's Difference from cookie: 
+ total difference: 78	differences: [10, 11, 19, 37, 39, 41, 43, 44, 85, 86, 94, 98, 107, 124, 129, 130, 132, 138, 146, 149]
+HaRRicH's Difference from cookie: 
+ total difference: 84	differences: [11, 14, 37, 54, 75, 85, 86, 96, 100, 107, 114, 116, 119, 124, 129, 130, 138, 148]
+Glenn_and_Toad's Difference from cookie: 
+ total difference: 107	differences: [7, 11, 14, 23, 37, 44, 48, 52, 59, 73, 76, 79, 86, 90, 91, 94, 101, 102, 105, 106, 107, 115, 116, 117, 119, 130, 131, 148, 149]
+BK_Sheikah00's Difference from cookie: 
+ total difference: 117	differences: [10, 11, 37, 43, 44, 77, 78, 86, 96, 103, 105, 106, 107, 116, 117, 119, 129, 130, 131, 143, 145, 146, 148, 149]
+andylt's Difference from cookie: 
+ total difference: 142	differences: [19, 23, 24, 26, 29, 37, 38, 39, 40, 48, 70, 75, 76, 77, 79, 83, 84, 96, 97, 98, 102, 106, 107, 113, 120, 124, 130, 132, 138, 142, 146, 148]
+NFUN's Difference from cookie: 
+ total difference: 285	differences: [2, 3, 6, 10, 12, 19, 20, 22, 24, 27, 30, 35, 37, 39, 40, 42, 46, 47, 51, 54, 55, 58, 63, 68, 70, 72, 74, 76, 77, 80, 84, 88, 94, 96, 97, 100, 102, 103, 104, 105, 106, 107, 108, 110, 113, 114, 116, 117, 118, 123, 124, 126, 129, 130, 131, 132, 134, 138, 139, 140, 142, 144, 145, 146, 148]
+Lopen's Difference from cookie: 
+ total difference: 467	differences: [6, 24, 26, 34, 35, 37, 43, 48, 55, 58, 64, 68, 70, 72, 75, 77, 78, 83, 85, 90, 94, 97, 98, 100, 102, 103, 106, 107, 110, 113, 114, 115, 116, 117, 122, 124, 125, 126, 127, 128, 129, 130, 131, 132, 134, 135, 136, 137, 138, 139, 140, 142, 143, 144, 145, 147, 148, 150]
+MZero's Difference from cookie: 
+ total difference: 72	differences: [10, 26, 37, 43, 68, 70, 75, 77, 79, 85, 88, 90, 106, 107, 110, 114, 129, 139, 143, 148]
+Menji's Difference from cookie: 
+ total difference: 197	differences: [12, 24, 37, 43, 64, 70, 75, 77, 78, 83, 90, 94, 96, 99, 100, 103, 110, 114, 116, 118, 119, 122, 126, 129, 130, 131, 137, 139, 142, 143, 144, 145, 146, 148]
+spooky's Difference from cookie: 
+ total difference: 116	differences: [7, 12, 19, 35, 37, 64, 70, 73, 79, 85, 91, 97, 99, 101, 107, 110, 113, 115, 116, 119, 130, 142, 146]
+KingBartz's Difference from cookie: 
+ total difference: 266	differences: [6, 10, 11, 19, 23, 24, 31, 34, 35, 37, 42, 63, 68, 69, 70, 73, 76, 78, 84, 94, 96, 98, 99, 101, 102, 103, 105, 106, 113, 115, 116, 117, 120, 122, 124, 126, 129, 130, 131, 132, 136, 137, 138, 140, 142, 143, 144, 146, 148, 149]
+NewerShadow's Difference from cookie: 
+ total difference: 129	differences: [2, 10, 11, 19, 37, 44, 64, 75, 77, 79, 86, 90, 97, 101, 106, 110, 113, 114, 115, 116, 129, 130, 142, 146, 148]
+Cody's Difference from cookie: 
+ total difference: 53	differences: [14, 37, 44, 70, 77, 86, 110, 119, 124, 129, 130, 148]
+Wreath's Difference from cookie: 
+ total difference: 141	differences: [11, 19, 37, 43, 48, 70, 79, 85, 90, 101, 107, 115, 116, 119, 130, 132, 136, 140, 142, 143, 144, 146]
+Cavedweller's Difference from cookie: 
+ total difference: 155	differences: [6, 14, 23, 24, 30, 31, 34, 37, 38, 44, 63, 68, 73, 75, 76, 83, 84, 85, 86, 87, 90, 94, 96, 101, 102, 106, 107, 108, 110, 113, 115, 118, 130, 131, 138, 139, 142, 146]
+Wigs's Difference from cookie: 
+ total difference: 109	differences: [6, 11, 12, 23, 37, 39, 43, 44, 48, 70, 75, 76, 85, 86, 90, 102, 107, 116, 119, 130, 142, 145, 146, 148]
+MoogleKupo's Difference from cookie: 
+ total difference: 117	differences: [6, 7, 10, 24, 37, 40, 42, 55, 59, 79, 83, 84, 94, 98, 101, 106, 114, 115, 124, 129, 130, 142, 146, 148]
+XIII's Difference from cookie: 
+ total difference: 92	differences: [10, 37, 44, 48, 70, 77, 86, 90, 101, 110, 115, 119, 142, 146, 148, 149]
+NicktheRPGLord's Difference from cookie: 
+ total difference: 107	differences: [6, 7, 10, 11, 26, 34, 35, 37, 40, 43, 44, 46, 52, 68, 70, 75, 77, 79, 84, 86, 90, 94, 106, 113, 116, 119, 130, 142, 146]
+cyko's Difference from cookie: 
+ total difference: 336	differences: [11, 12, 21, 24, 35, 37, 43, 55, 70, 73, 75, 83, 84, 85, 91, 96, 101, 105, 106, 107, 110, 113, 115, 117, 119, 125, 129, 131, 135, 139, 140, 142, 143, 144, 146, 147, 149, 150]
+tennisboy's Difference from cookie: 
+ total difference: 107	differences: [7, 10, 11, 19, 37, 43, 44, 73, 85, 86, 91, 100, 101, 105, 106, 107, 114, 115, 117, 119, 129, 131, 132, 148, 149]
+trogita's Difference from cookie: 
+ total difference: 377	differences: [10, 12, 26, 37, 43, 70, 75, 77, 96, 99, 110, 113, 114, 116, 119, 122, 129, 130, 133, 136, 137, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+tazzyboyishere's Difference from cookie: 
+ total difference: 125	differences: [26, 37, 43, 44, 55, 75, 77, 79, 86, 91, 96, 98, 105, 106, 114, 116, 117, 119, 129, 130, 131, 142, 146]
+TsunamiXXVIII's Difference from cookie: 
+ total difference: 163	differences: [7, 10, 19, 24, 31, 37, 41, 46, 52, 55, 63, 73, 79, 85, 86, 90, 91, 94, 96, 101, 105, 107, 110, 115, 117, 118, 122, 124, 126, 129, 130, 131, 137, 138, 139, 143, 148, 149]
+scaryice's Difference from cookie: 
+ total difference: 153	differences: [7, 11, 12, 14, 19, 37, 39, 43, 63, 70, 73, 77, 96, 101, 110, 113, 115, 116, 119, 130, 134, 138, 142, 143, 145, 146, 148]
+Tirofog's Difference from cookie: 
+ total difference: 208	differences: [7, 10, 11, 19, 20, 23, 29, 34, 35, 37, 40, 41, 42, 43, 48, 55, 63, 64, 68, 69, 74, 75, 76, 77, 78, 79, 84, 85, 87, 90, 91, 94, 96, 98, 99, 102, 103, 106, 107, 108, 110, 116, 118, 119, 122, 124, 126, 129, 130, 131, 137, 138, 140, 143, 144, 146, 149]
+NateInDisney's Difference from cookie: 
+ total difference: 228	differences: [2, 3, 11, 12, 14, 19, 23, 24, 34, 37, 39, 40, 42, 44, 55, 59, 70, 76, 77, 83, 84, 86, 87, 90, 94, 96, 97, 99, 102, 105, 106, 108, 109, 110, 113, 117, 118, 119, 125, 128, 131, 132, 135, 136, 139, 140, 142, 144, 149]
+Zylothewolf's Difference from cookie: 
+ total difference: 98	differences: [10, 11, 37, 42, 43, 48, 63, 64, 75, 79, 96, 101, 102, 105, 115, 117, 119, 129, 131, 132, 145, 148, 149]
+DoctorJimmy's Difference from cookie: 
+ total difference: 104	differences: [19, 26, 37, 39, 40, 43, 48, 64, 73, 77, 84, 91, 101, 105, 106, 110, 115, 116, 117, 119, 130, 131, 145, 148, 149]
+RockMFR's Difference from cookie: 
+ total difference: 174	differences: [6, 7, 10, 11, 19, 23, 24, 27, 37, 38, 39, 40, 43, 46, 54, 55, 59, 63, 70, 73, 76, 77, 79, 83, 84, 85, 88, 90, 94, 96, 98, 99, 101, 102, 103, 105, 106, 107, 110, 114, 115, 116, 117, 118, 129, 130, 131, 132, 139, 148, 149]
+ExThaNemesis's Difference from cookie: 
+ total difference: 147	differences: [11, 12, 26, 37, 39, 44, 48, 63, 64, 70, 77, 79, 83, 86, 90, 96, 98, 105, 110, 114, 116, 117, 119, 120, 129, 130, 131, 132, 142, 146]
+WhiteLens's Difference from cookie: 
+ total difference: 75	differences: [7, 10, 11, 12, 34, 37, 42, 44, 58, 70, 79, 86, 91, 96, 98, 100, 102, 106, 114, 119, 129, 146, 149]
+captaincanadian's Difference from cookie: 
+ total difference: 325	differences: [6, 11, 14, 19, 23, 29, 35, 36, 37, 39, 42, 44, 52, 59, 63, 68, 72, 75, 76, 77, 78, 79, 82, 86, 90, 91, 94, 96, 97, 98, 99, 100, 102, 103, 105, 106, 110, 113, 114, 116, 117, 118, 119, 120, 122, 124, 127, 129, 130, 131, 132, 134, 136, 137, 138, 140, 142, 143, 144, 145, 146, 148, 149]
+kateee's Difference from cookie: 
+ total difference: 145	differences: [12, 21, 37, 40, 50, 70, 75, 77, 79, 83, 84, 94, 96, 100, 105, 106, 114, 116, 117, 124, 129, 130, 131, 132, 138, 142, 146]
+Advokaiser's Difference from cookie: 
+ total difference: 65	differences: [37, 39, 42, 44, 52, 86, 90, 106, 110, 116, 119, 130, 131, 143, 149]
+BlackTurtle's Difference from cookie: 
+ total difference: 100	differences: [10, 11, 14, 23, 24, 34, 35, 37, 39, 44, 48, 52, 59, 64, 70, 75, 76, 77, 83, 85, 86, 90, 94, 100, 102, 107, 114, 119, 129, 132, 145, 148, 149]
+PumpkinCoach's Difference from cookie: 
+ total difference: 194	differences: [6, 10, 21, 23, 24, 26, 35, 37, 38, 43, 44, 51, 75, 76, 77, 79, 83, 86, 95, 98, 102, 105, 112, 117, 118, 119, 122, 124, 129, 130, 131, 132, 134, 137, 138, 139, 140, 143, 144, 148, 149]
+Turnsniper's Difference from cookie: 
+ total difference: 159	differences: [37, 68, 75, 77, 78, 79, 83, 84, 85, 86, 91, 94, 102, 103, 105, 106, 107, 110, 116, 117, 119, 124, 130, 131, 132, 138, 142, 146, 148]
+SwiftyDC's Difference from cookie: 
+ total difference: 89	differences: [7, 10, 11, 12, 26, 37, 39, 43, 44, 48, 64, 70, 77, 79, 83, 86, 90, 96, 98, 101, 102, 105, 115, 117, 118, 129, 131, 149]
+raytan's Difference from cookie: 
+ total difference: 329	differences: [10, 19, 21, 24, 31, 34, 35, 37, 38, 40, 42, 47, 55, 59, 63, 65, 68, 70, 73, 75, 77, 79, 83, 84, 86, 88, 94, 96, 97, 98, 101, 102, 104, 106, 107, 108, 110, 111, 113, 115, 118, 120, 122, 124, 129, 130, 132, 134, 137, 138, 140, 141, 143, 144, 145, 147, 148, 149]
+foxhead84's Difference from cookie: 
+ total difference: 82	differences: [11, 37, 43, 48, 75, 77, 90, 116, 119, 130, 142, 143, 146]
+handsomeboy's Difference from cookie: 
+ total difference: 181	differences: [23, 24, 37, 40, 44, 73, 76, 77, 84, 86, 96, 101, 102, 106, 107, 113, 115, 124, 129, 130, 132, 138, 143, 148, 150]
+A worlds envy's Difference from cookie: 
+ total difference: 141	differences: [7, 10, 19, 21, 26, 34, 35, 37, 38, 39, 43, 46, 47, 48, 60, 70, 72, 75, 77, 79, 83, 85, 88, 90, 91, 96, 98, 100, 106, 107, 113, 114, 116, 119, 129, 130, 131, 140, 143, 144, 149]
+Haste2's Difference from cookie: 
+ total difference: 103	differences: [16, 19, 23, 37, 39, 43, 48, 76, 85, 102, 106, 107, 113, 119, 142, 143, 146, 148, 149]
+ChichiriMuyo's Difference from cookie: 
+ total difference: 372	differences: [6, 10, 11, 19, 23, 24, 26, 30, 35, 37, 38, 40, 54, 55, 59, 63, 70, 75, 76, 77, 79, 83, 84, 87, 94, 96, 97, 100, 102, 105, 106, 108, 110, 113, 114, 117, 118, 119, 125, 129, 130, 131, 135, 139, 140, 142, 144, 146, 147, 148, 149, 150]
+voltch's Difference from cookie: 
+ total difference: 249	differences: [10, 12, 21, 23, 24, 34, 37, 44, 52, 55, 59, 70, 75, 76, 77, 79, 86, 90, 94, 96, 98, 99, 102, 110, 114, 119, 122, 124, 129, 130, 134, 137, 138, 140, 143, 144, 145, 148, 149, 150]
+firefdr's Difference from cookie: 
+ total difference: 86	differences: [6, 7, 11, 37, 78, 83, 86, 91, 96, 103, 105, 107, 110, 116, 117, 124, 130, 131, 138, 149]
+tyder21's Difference from cookie: 
+ total difference: 67	differences: [2, 3, 11, 19, 37, 48, 63, 75, 77, 78, 90, 94, 96, 98, 103, 116, 124, 130, 148, 149]
+garetha's Difference from cookie: 
+ total difference: 143	differences: [7, 19, 23, 37, 39, 43, 44, 48, 64, 75, 76, 77, 86, 90, 98, 100, 102, 105, 107, 114, 116, 117, 119, 129, 130, 131, 142, 143, 146]
+Dragon66116's Difference from cookie: 
+ total difference: 97	differences: [37, 44, 48, 70, 75, 86, 97, 110, 113, 116, 119, 130, 142, 146, 148]
+Nintendoboy's Difference from cookie: 
+ total difference: 90	differences: [7, 23, 26, 37, 39, 43, 76, 77, 78, 90, 102, 103, 107, 116, 130, 142, 146, 148]
+Sniperdog's Difference from cookie: 
+ total difference: 210	differences: [12, 37, 43, 44, 70, 85, 86, 98, 99, 107, 110, 114, 119, 122, 129, 133, 137, 141, 143, 145, 147, 148, 149]
+puseecat's Difference from cookie: 
+ total difference: 245	differences: [10, 11, 12, 37, 38, 44, 48, 70, 73, 77, 78, 83, 85, 86, 91, 94, 98, 99, 101, 103, 105, 107, 110, 115, 116, 117, 118, 119, 124, 127, 130, 131, 132, 136, 138, 139, 140, 142, 143, 144, 146, 148, 149]
+cloelea's Difference from cookie: 
+ total difference: 244	differences: [10, 11, 12, 37, 38, 40, 44, 48, 70, 73, 77, 78, 83, 84, 85, 86, 91, 94, 98, 99, 101, 103, 105, 106, 107, 110, 115, 116, 117, 118, 119, 124, 127, 130, 131, 132, 136, 138, 139, 140, 142, 144, 146, 148, 149]
+Cloyenne's Difference from cookie: 
+ total difference: 110	differences: [6, 10, 14, 19, 24, 37, 42, 44, 52, 64, 70, 77, 83, 86, 90, 91, 113, 116, 130, 140, 142, 144, 146, 148]
+Bane_Of_Despair's Difference from cookie: 
+ total difference: 72	differences: [6, 7, 10, 26, 37, 39, 44, 54, 77, 86, 90, 96, 102, 106, 119, 142, 146]
+SuperNiceDog's Difference from cookie: 
+ total difference: 488	differences: [3, 7, 11, 12, 19, 34, 37, 41, 43, 44, 46, 52, 65, 68, 70, 75, 77, 78, 83, 85, 86, 90, 99, 100, 101, 102, 103, 106, 107, 113, 114, 115, 116, 117, 119, 122, 124, 125, 129, 130, 131, 133, 134, 135, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+OrangeCrush980's Difference from cookie: 
+ total difference: 83	differences: [11, 12, 37, 43, 44, 70, 75, 86, 99, 105, 114, 117, 119, 122, 129, 131, 138, 148]
+charmander's Difference from cookie: 
+ total difference: 178	differences: [14, 21, 35, 37, 42, 43, 46, 48, 70, 75, 79, 85, 90, 100, 101, 105, 107, 114, 115, 117, 119, 129, 131, 132, 134, 138, 142, 143, 145, 146, 148]
+LordoftheMorons's Difference from cookie: 
+ total difference: 103	differences: [6, 11, 37, 39, 42, 44, 48, 70, 75, 77, 86, 101, 106, 107, 110, 115, 116, 130, 142, 146, 148]
+Polycosm's Difference from cookie: 
+ total difference: 115	differences: [6, 7, 10, 12, 19, 37, 42, 43, 46, 48, 55, 62, 63, 70, 73, 78, 79, 88, 94, 96, 101, 103, 105, 106, 113, 115, 116, 117, 119, 130, 131, 143, 149]
+Moltar's Difference from cookie: 
+ total difference: 87	differences: [7, 37, 44, 75, 86, 100, 105, 114, 116, 117, 119, 129, 130, 131, 146, 149]
+Xuxon's Difference from cookie: 
+ total difference: 333	differences: [11, 35, 37, 41, 42, 70, 73, 77, 83, 85, 90, 101, 106, 107, 110, 113, 115, 116, 117, 119, 124, 125, 130, 131, 132, 135, 138, 139, 142, 146, 147, 149, 150]
+princeton_boy's Difference from cookie: 
+ total difference: 245	differences: [10, 11, 12, 37, 38, 44, 48, 70, 73, 77, 78, 83, 85, 86, 91, 94, 98, 99, 101, 103, 105, 107, 110, 115, 116, 117, 118, 119, 124, 127, 128, 130, 131, 132, 136, 138, 139, 140, 142, 144, 146, 148, 149]
+mcflubbin's Difference from cookie: 
+ total difference: 145	differences: [6, 7, 19, 26, 37, 39, 40, 44, 63, 70, 77, 79, 84, 86, 96, 100, 106, 110, 114, 116, 119, 124, 129, 130, 138, 142, 143, 146, 148]
+reggaeton_reina's Difference from cookie: 
+ total difference: 229	differences: [10, 11, 12, 37, 38, 44, 48, 70, 73, 77, 78, 83, 85, 86, 91, 94, 98, 99, 101, 103, 105, 107, 110, 115, 116, 117, 118, 119, 124, 127, 130, 131, 136, 138, 139, 140, 142, 144, 146, 148, 149]
+Hbthebattle's Difference from cookie: 
+ total difference: 500	differences: [6, 10, 12, 19, 23, 26, 34, 35, 37, 39, 40, 42, 46, 52, 53, 55, 62, 63, 70, 75, 76, 77, 83, 84, 86, 90, 91, 93, 96, 99, 102, 106, 107, 110, 111, 114, 116, 117, 118, 120, 122, 124, 125, 126, 129, 130, 131, 132, 133, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+DrFootball's Difference from cookie: 
+ total difference: 201	differences: [3, 6, 24, 26, 37, 40, 42, 43, 44, 73, 75, 77, 79, 84, 86, 101, 106, 113, 115, 116, 124, 129, 130, 138, 142, 146, 150]
+haloiscoolisbak's Difference from cookie: 
+ total difference: 54	differences: [7, 10, 11, 14, 19, 37, 43, 44, 48, 52, 86, 90, 107, 110, 116, 130, 143, 149]
+pjbasis's Difference from cookie: 
+ total difference: 88	differences: [6, 14, 23, 26, 37, 38, 39, 43, 44, 48, 70, 75, 76, 77, 83, 86, 96, 101, 102, 107, 110, 113, 114, 115, 119, 129, 148]
+SirBinro's Difference from cookie: 
+ total difference: 78	differences: [7, 11, 14, 37, 40, 52, 72, 84, 85, 86, 90, 91, 100, 101, 102, 106, 107, 114, 115, 118, 129, 149]
+alblito's Difference from cookie: 
+ total difference: 118	differences: [11, 19, 24, 37, 38, 41, 43, 44, 75, 79, 83, 85, 86, 100, 101, 102, 107, 110, 114, 115, 119, 129, 131, 132, 138, 146, 148, 149]
+Ytterbicide's Difference from cookie: 
+ total difference: 172	differences: [7, 11, 12, 14, 19, 26, 37, 39, 40, 43, 48, 55, 70, 73, 77, 84, 86, 96, 100, 101, 106, 113, 114, 115, 117, 118, 119, 124, 129, 130, 131, 132, 134, 138, 145, 148, 149]
+KanzarisKelshen's Difference from cookie: 
+ total difference: 108	differences: [12, 37, 39, 44, 70, 75, 77, 85, 86, 96, 97, 98, 100, 106, 107, 113, 114, 116, 119, 129, 130, 139, 148, 149]
+paulg's Difference from cookie: 
+ total difference: 323	differences: [7, 11, 12, 19, 23, 37, 39, 42, 43, 48, 55, 70, 73, 75, 76, 85, 91, 101, 102, 105, 107, 113, 115, 116, 117, 119, 123, 124, 130, 131, 132, 134, 136, 138, 139, 140, 142, 144, 145, 146, 148, 149, 150]
+ZaziGuado's Difference from cookie: 
+ total difference: 487	differences: [3, 6, 11, 19, 23, 24, 26, 30, 31, 37, 39, 40, 42, 44, 48, 54, 59, 63, 64, 68, 69, 73, 74, 76, 77, 79, 84, 86, 94, 95, 96, 99, 100, 101, 102, 103, 105, 106, 107, 110, 112, 114, 115, 116, 117, 118, 122, 123, 125, 126, 127, 129, 130, 131, 134, 135, 136, 137, 138, 139, 140, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+Lockes Ragnarok's Difference from cookie: 
+ total difference: 196	differences: [2, 6, 19, 34, 37, 38, 39, 40, 42, 43, 44, 48, 58, 63, 68, 74, 83, 84, 85, 86, 90, 94, 96, 97, 102, 106, 107, 110, 113, 116, 119, 122, 129, 130, 137, 138, 139, 140, 142, 143, 144, 146, 149]
+Joelypoely's Difference from cookie: 
+ total difference: 56	differences: [12, 37, 70, 99, 142, 146, 148]
+Mac Arrowny 's Difference from cookie: 
+ total difference: 63	differences: [11, 26, 37, 43, 44, 77, 78, 86, 90, 91, 103, 106, 116, 119, 130, 148, 149]
+greengravy's Difference from cookie: 
+ total difference: 122	differences: [10, 29, 34, 37, 40, 43, 44, 48, 52, 64, 78, 79, 84, 86, 90, 91, 94, 95, 97, 102, 103, 106, 107, 112, 113, 114, 116, 118, 119, 129, 130, 148, 149]
+Anagram's Difference from cookie: 
+ total difference: 177	differences: [11, 12, 14, 23, 35, 37, 38, 44, 52, 60, 64, 68, 70, 73, 74, 76, 78, 79, 83, 86, 90, 91, 97, 101, 102, 103, 107, 110, 113, 114, 115, 116, 119, 123, 124, 129, 130, 134, 138, 145, 148, 149]
+Dva69's Difference from cookie: 
+ total difference: 132	differences: [7, 10, 11, 19, 23, 37, 39, 41, 48, 64, 70, 73, 76, 78, 79, 85, 90, 91, 96, 101, 102, 103, 106, 107, 110, 115, 116, 130, 131, 132, 142, 146]
+Furious Fara's Difference from cookie: 
+ total difference: 266	differences: [10, 11, 12, 14, 37, 43, 47, 63, 70, 75, 88, 94, 96, 98, 99, 100, 102, 114, 116, 119, 122, 129, 130, 133, 134, 137, 138, 139, 141, 143, 145, 147, 148, 149]
+MMXcalibur's Difference from cookie: 
+ total difference: 167	differences: [6, 7, 19, 23, 34, 35, 37, 39, 43, 44, 46, 52, 59, 60, 62, 68, 73, 75, 76, 79, 86, 90, 91, 94, 96, 101, 102, 105, 106, 110, 113, 115, 117, 119, 122, 124, 129, 130, 131, 137, 138, 143, 146, 149]
+fpce666 's Difference from cookie: 
+ total difference: 51	differences: [6, 14, 37, 43, 44, 70, 79, 86, 107, 110, 119, 143, 148, 149]
+jacko_vdz's Difference from cookie: 
+ total difference: 42	differences: [6, 11, 12, 37, 43, 44, 70, 79, 86, 90, 106, 119, 146, 149]
+Oxbridge's Difference from cookie: 
+ total difference: 90	differences: [6, 7, 11, 37, 39, 42, 48, 63, 75, 86, 96, 100, 101, 105, 113, 114, 115, 117, 119, 129, 131, 149]
+Wizardsfan's Difference from cookie: 
+ total difference: 368	differences: [1, 2, 3, 6, 7, 10, 12, 14, 19, 21, 23, 26, 35, 36, 37, 40, 42, 52, 55, 63, 65, 66, 70, 73, 75, 76, 77, 82, 83, 84, 90, 91, 95, 96, 97, 98, 99, 101, 102, 105, 106, 112, 113, 114, 115, 117, 118, 119, 120, 122, 124, 129, 130, 131, 132, 133, 134, 137, 138, 139, 141, 143, 145, 147, 148, 149]
+hockeydude's Difference from cookie: 
+ total difference: 82	differences: [24, 37, 43, 48, 79, 90, 94, 98, 100, 102, 106, 114, 116, 119, 129, 130, 148, 149]
+RoseChevalier's Difference from cookie: 
+ total difference: 162	differences: [6, 12, 24, 27, 31, 37, 38, 39, 42, 46, 47, 50, 53, 54, 55, 63, 70, 75, 76, 77, 79, 83, 86, 88, 91, 94, 96, 98, 99, 102, 105, 106, 107, 108, 114, 117, 118, 124, 126, 129, 130, 131, 138, 139, 146, 149]
+chocoboslayer's Difference from cookie: 
+ total difference: 254	differences: [7, 10, 11, 12, 19, 21, 34, 37, 39, 40, 43, 52, 70, 75, 77, 83, 84, 85, 86, 90, 96, 100, 102, 106, 107, 110, 114, 124, 129, 130, 138, 140, 144, 147, 149, 150]
+Paratroopa's Difference from cookie: 
+ total difference: 155	differences: [7, 14, 23, 37, 43, 52, 64, 68, 73, 75, 76, 78, 86, 90, 91, 101, 102, 103, 113, 114, 115, 116, 119, 129, 130, 132, 142, 145, 146, 148]
+DomaDragoon's Difference from cookie: 
+ total difference: 143	differences: [6, 7, 10, 11, 12, 14, 19, 20, 23, 24, 26, 35, 37, 39, 40, 46, 55, 59, 63, 68, 70, 72, 74, 75, 76, 77, 83, 84, 86, 94, 96, 98, 100, 102, 105, 106, 107, 108, 114, 117, 118, 129, 131, 140, 144, 146, 149]
+pyresword's Difference from cookie: 
+ total difference: 36	differences: [37, 44, 70, 75, 86, 110, 132, 145, 148]
+TheArkOfTurus's Difference from cookie: 
+ total difference: 112	differences: [6, 7, 10, 12, 21, 23, 37, 39, 43, 44, 48, 64, 70, 75, 76, 78, 86, 87, 91, 96, 102, 103, 105, 106, 107, 108, 110, 116, 117, 118, 119, 130, 131, 149]
+ZeldaTPLink's Difference from cookie: 
+ total difference: 88	differences: [11, 12, 19, 37, 44, 48, 70, 75, 86, 100, 105, 106, 114, 116, 117, 129, 130, 131, 143, 148]
+Arti's Difference from cookie: 
+ total difference: 79	differences: [6, 10, 19, 24, 35, 37, 40, 44, 55, 75, 77, 84, 85, 86, 91, 96, 106, 107, 113, 116, 130, 131, 148, 149]
+ctesjbuvf's Difference from cookie: 
+ total difference: 80	differences: [37, 43, 44, 46, 75, 86, 100, 101, 107, 110, 114, 115, 119, 129, 143, 148, 149]
+CasanovaZelos's Difference from cookie: 
+ total difference: 184	differences: [6, 7, 10, 11, 14, 19, 26, 37, 39, 42, 44, 48, 52, 64, 75, 77, 83, 86, 90, 91, 94, 100, 102, 105, 107, 110, 114, 117, 119, 124, 129, 130, 131, 136, 138, 140, 142, 144, 146]
+OFool's Difference from cookie: 
+ total difference: 60	differences: [10, 12, 19, 37, 43, 63, 70, 75, 78, 90, 96, 99, 103, 110, 116, 119, 130, 149]
+Osfan's Difference from cookie: 
+ total difference: 40	differences: [6, 7, 24, 37, 43, 44, 70, 79, 86, 110, 129, 148, 149]
+CybrMonkey's Difference from cookie: 
+ total difference: 186	differences: [3, 21, 23, 29, 37, 38, 43, 48, 63, 64, 73, 75, 76, 77, 78, 79, 83, 86, 94, 96, 101, 102, 103, 114, 115, 116, 124, 128, 129, 130, 132, 136, 138, 140, 142, 144, 146]
+Yesmar's Difference from cookie: 
+ total difference: 84	differences: [37, 43, 48, 64, 70, 79, 94, 96, 100, 110, 114, 119, 126, 129, 139, 143, 145, 148]
+FlyingForever's Difference from cookie: 
+ total difference: 120	differences: [7, 10, 11, 12, 19, 23, 37, 48, 70, 73, 76, 78, 90, 91, 101, 102, 103, 106, 110, 115, 116, 119, 130, 138, 142, 146]
+Camden's Difference from cookie: 
+ total difference: 65	differences: [37, 75, 77, 106, 119, 142, 146, 148]
+Lightning Strikes's Difference from cookie: 
+ total difference: 95	differences: [3, 6, 14, 19, 23, 24, 35, 37, 39, 42, 46, 54, 55, 76, 77, 79, 86, 90, 97, 100, 102, 106, 113, 114, 116, 129, 130, 132, 148]
+hombad's Difference from cookie: 
+ total difference: 136	differences: [6, 10, 11, 14, 19, 24, 26, 37, 38, 44, 52, 55, 77, 83, 85, 86, 90, 96, 102, 107, 116, 118, 122, 124, 129, 130, 137, 138, 143, 145, 146, 148, 149]
+pronouncemyname's Difference from cookie: 
+ total difference: 154	differences: [7, 12, 26, 37, 43, 48, 70, 73, 77, 83, 90, 96, 97, 101, 105, 110, 113, 115, 116, 117, 119, 127, 130, 131, 132, 138, 142, 146]
+jcgamer's Difference from cookie: 
+ total difference: 328	differences: [1, 6, 7, 10, 11, 14, 19, 20, 35, 37, 39, 40, 42, 46, 47, 52, 53, 55, 58, 62, 65, 68, 73, 74, 82, 84, 85, 86, 87, 88, 90, 91, 94, 96, 98, 101, 102, 106, 107, 108, 114, 115, 117, 118, 119, 124, 125, 126, 127, 128, 129, 130, 131, 132, 134, 135, 136, 137, 138, 139, 140, 142, 143, 144, 146, 149]
+</span>

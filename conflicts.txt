@@ -1,0 +1,10 @@
+MarioSuperstar has a conflict between matches 133 and 137 picking Crono
+SpikeDragon has a conflict between matches 123 and 129 picking Bowser
+Lord Bob Bree has a conflict between matches 123 and 129 picking Bowser
+Janus5k has a conflict between matches 123 and 129 picking Kirby
+Janus5k has a conflict between matches 141 and 145 picking Solid Snake
+Natwaf_akidna has a conflict between matches 127 and 131 picking Sephiroth
+Natwaf_akidna has a conflict between matches 135 and 139 picking Sephiroth
+Ange has a conflict between matches 123 and 129 picking Charizard
+whatisurnameplz has a conflict between matches 133 and 137 picking Crono
+Ytterbicide has a conflict between matches 133 and 137 picking Bowser

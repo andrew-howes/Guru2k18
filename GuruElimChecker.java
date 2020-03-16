@@ -91,12 +91,12 @@ public class GuruElimChecker {
 	    }	
 		fillPossiblesWithResults();
 		//outputClosestBrackets();
-			if(args.length <= 0)
-				checkNext(1,"Spotcheck_");
-			else
-				checkNext(Integer.parseInt(args[0]),"Spotcheck_");
-		/*
-		calculateScenarios("");*/
+//			if(args.length <= 0)
+//				checkNext(1,"Spotcheck_");
+//			else
+//				checkNext(Integer.parseInt(args[0]),"Spotcheck_");
+		
+		calculateScenarios("");
 	}
 	
 	//check the next _i_ results. This is recursive, branching until i=1, and resulting in 2^i executions.
@@ -126,6 +126,51 @@ public class GuruElimChecker {
 		possibleResults[nextMatch] = possibles;
 		
 	}
+	
+	public static void calculateScenarios(String scene)
+	{
+		String[] possibles = getPossibles(nextMatch);
+		for(String poss : possibles)
+		{
+			possibleResults[nextMatch] = new String[1];
+			possibleResults[nextMatch][0] = poss;
+			results[nextMatch] = poss;
+			
+			//if the current match is the final, print the winner(s), else continue to iterate.
+			if(nextMatch == 149)
+			{
+				scores = calculateScores(results);
+				String newScene = scene+poss;
+				outputWinner(newScene);
+			}else{
+				nextMatch++;
+				calculateScenarios(scene+poss+"+");
+				nextMatch--;
+			}
+			possibleResults[nextMatch][0] = "";
+			results[nextMatch] = "";
+		}
+		//possibleResults[nextMatch] = new String[possibles.length];
+		//possibleResults[nextMatch] = possibles;
+	}
+	
+	//outputs the winner(s) for a given scenario.
+		public static void outputWinner(String scene)
+		{
+			int maxscore = scores[0];
+			for(int i = 1; i < scores.length; i++)
+			{
+				if(scores[i] > maxscore)
+					maxscore = scores[i];
+			}
+			System.out.print("Winner(s) for " + scene +": ");
+			for(int j = 0; j < scores.length; j++)
+			{
+				if(scores[j]==maxscore)
+					System.out.print(entrants[j]+" ");
+			}
+			System.out.println();
+		}
 	
 	//loop through all players, checking if they are alive given a specific scenario (that is stored in results)
 	public static void checkAllPlayers()
@@ -368,8 +413,8 @@ public class GuruElimChecker {
 	{
 		String[] result;
 		int start;
-		if(!possibleResults[match][0].equals(""))
-			return possibleResults[match];
+		//if(!possibleResults[match][0].equals(""))
+			//return possibleResults[match];
 		ArrayList<String> temp = new ArrayList<String>();
 		if(match < 96)
 		{
@@ -398,21 +443,28 @@ public class GuruElimChecker {
 			}else if(match < 140)
 			{
 				temp.add(results[(match-8)]);
-				temp.add(getLoser(match-4));
+				temp.add(results[(match-136)*2+120]);
+				temp.add(results[(match-136)*2+121]);
+				temp.remove(results[(match-4)]);
+				//temp.add(getScenarioLoser(match-4));
 			}else if(match < 144)
 			{
 				temp.add(results[(match-140)*2+132]);
 				temp.add(results[(match-140)*2+133]);
-				
+				//if(match < 142)
+					//temp.remove(results[match+4]);
 			}else if(match < 146)
 			{
 				temp.add(results[(match-2)]);
-				temp.add(getLoser(match-4));
-			}else if(match == 146)//winners finals
+				temp.add(results[(match-144)*2+132]);
+				temp.add(results[(match-144)*2+133]);
+				temp.remove(results[(match-4)]);
+				//temp.add(getScenarioLoser(match-4));
+			}else if(match == 146)
 			{
 				temp.add(results[match-6]);
 				temp.add(results[match-5]);
-				
+				//temp.remove(results[match+2]);
 			}else if(match == 147)
 			{
 				temp.add(results[match-3]);
@@ -420,7 +472,10 @@ public class GuruElimChecker {
 			}else if(match == 148)
 			{
 				temp.add(results[match-1]);
-				temp.add(getLoser(match-2));
+				temp.add(results[match-8]);
+				temp.add(results[match-7]);
+				temp.remove(results[(match-2)]);
+				//temp.add(getScenarioLoser(match-2));
 			}else{
 				temp.add(results[match-3]);
 				temp.add(results[match-1]);
@@ -592,9 +647,9 @@ public class GuruElimChecker {
 			}else if(matchNum < 132)
 			{
 				return ( !results[(matchNum-128)*2+120].equals(pick) && 
-						isValid(pick, (matchNum-128)*2+120) )
+						isValid(pick, (matchNum-128)*2+112) || legends[matchNum-128].equals(pick))
 						|| ( !results[(matchNum-128)*2+121].equals(pick) && 
-								isValid(pick, (matchNum-128)*2+121) );
+								isValid(pick, (matchNum-128)*2+113) || legends[matchNum-127].equals(pick));
 			}else if(matchNum < 136)
 			{
 				return isValid(pick, (matchNum-132)*2+120) ||

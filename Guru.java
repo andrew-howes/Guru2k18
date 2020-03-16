@@ -18,6 +18,8 @@ public class Guru {
 	static String[][] possibleResults;
 	static File neighbors; 
 	static int nextMatch;
+	static int cookieID;
+	static File cookieOUT;
 	
 	
 	//main execution thread - initializes list of brackets, starts output. 
@@ -31,6 +33,8 @@ public class Guru {
 	        File inFile = new File("allbrackets.txt");
 	        
 	        neighbors = new File("neighbors.txt");
+	        cookieOUT = new File("cookieOUT2.txt");
+	        
 	        setUpLegends();
 	        BufferedReader in = new BufferedReader(new FileReader(inFile));
 	        String line;
@@ -46,7 +50,15 @@ public class Guru {
 	            else if(picks[0].equals("POSSIBLE"))
 	            {
 	            	processPossibleResults(picks);
-	            }else{
+	            }
+	            else if(picks[0].equals("COOKIE"))
+	            {
+	            	players.add(picks[0]);
+	            	processPlayer(picks);
+	            	cookieID = count;
+	            	count++;
+	            }
+	            else{
 	            	players.add(picks[0]);
 	            	processPlayer(picks);
 	            	count++;
@@ -58,18 +70,24 @@ public class Guru {
 	    } catch (IOException e) {
 	        System.out.println("File Read Error: " + e.getMessage());
 	    }
-		scores = calculateScores(results);
-		System.out.println("Current Match: " + nextMatch + " Remaining Brackets: " + entrants.length);
-		outputClosestBrackets();
+		//scores = calculateScores(results);
+		//System.out.println("Current Match: " + nextMatch + " Remaining Brackets: " + entrants.length);
+		//outputClosestBrackets();
 		//checkIllegalBrackets();
 		//How many matches to check - default is 1
-		if(args.length <= 0)
-			checkNext(1,"");
-		else
-			checkNext(Integer.parseInt(args[0]),"");
+//		if(args.length <= 0)
+//			checkNext(1,"");
+//		else
+//			checkNext(Integer.parseInt(args[0]),"");
 		
 		//calculateScenarios("");
+		generateCookieDiffs();
 	}
+	
+	public static void processResults() {
+		
+	}
+	
 	
 	public static void checkIllegalBrackets()
 	{
@@ -145,7 +163,7 @@ public class Guru {
 			results[nextMatch] = poss;
 			scores = calculateScores(results);
 			//if the current match is the final, print the winner(s), else continue to iterate.
-			if(nextMatch == 150)
+			if(nextMatch == 149)
 			{
 				String newScene = scene+poss;
 				outputWinner(newScene);
@@ -154,6 +172,8 @@ public class Guru {
 				calculateScenarios(scene+poss+"+");
 				nextMatch--;
 			}
+			possibleResults[nextMatch][0] = "";
+			results[nextMatch] = "";
 		}
 		possibleResults[nextMatch] = new String[possibles.length];
 		possibleResults[nextMatch] = possibles;
@@ -321,6 +341,55 @@ public class Guru {
 				values[i] = 8;
 		}
 	}
+	
+	//output the difference from the cookie for each entrant, and prints the eliminations given a specific result.
+	public static void generateCookieDiffs()
+	{
+		try {
+			FileWriter writer = new FileWriter(cookieOUT);
+			
+			String winner = cookieOUT.getName();
+			
+			winner = winner.substring(0,winner.indexOf("."));
+			if(! winner.equals("neighbors"))
+				System.out.println("Elims for a "+winner+" win:");
+			
+			//writer.write("<span class=\"nocode\">\n");
+			//writer.write("updated through "+results[nextMatch-1]+"'s win\n");
+			int[][] comparisons;
+			int minscore;
+			String out;
+			ArrayList<Integer> minIDs = new ArrayList<Integer>();
+			int[] diffmatches;
+			boolean hasPrinted = false;
+			for(int player = 0; player < entrants.length; player++)
+			{
+				comparisons = new int[entrants.length][3];
+				comparisons[0] = getDifferenceScore(player, cookieID);
+				
+				out = "";
+				out = entrants[player]+","+comparisons[0][1]+";\n";
+//				writer.write(entrants[player]+"'s Difference from cookie: \n");
+//				hasPrinted = false;
+//				out += " total difference: " + comparisons[0][1];
+//				out += "\tdifferences: ";
+//				diffmatches = getDifferentMatches(player,cookieID);
+//				out += Arrays.toString(diffmatches)+"\n";
+//				System.out.println();
+//				
+				
+				writer.write(out);
+			}
+			System.out.println();
+			//writer.write("</span>\n");
+			writer.close();
+		} catch (IOException e) {
+			System.out.println("problem with output");
+			System.exit(1);
+		}
+		//System.out.println("Done getting differences");
+	}
+	
 	
 	//output the closest brackets for each entrant, and prints the eliminations given a specific result.
 	public static void outputClosestBrackets()
@@ -513,9 +582,9 @@ public class Guru {
 			}else if(matchNum < 132)
 			{
 				return ( !results[(matchNum-128)*2+120].equals(pick) && 
-						isValid(pick, (matchNum-128)*2+120) )
+						isValid(pick, (matchNum-128)*2+112) || legends[matchNum-128].equals(pick))
 						|| ( !results[(matchNum-128)*2+121].equals(pick) && 
-								isValid(pick, (matchNum-128)*2+121) );
+								isValid(pick, (matchNum-128)*2+113) || legends[matchNum-127].equals(pick));
 			}else if(matchNum < 136)
 			{
 				return isValid(pick, (matchNum-132)*2+120) ||
@@ -523,7 +592,8 @@ public class Guru {
 			}else if(matchNum < 140)
 			{
 				return ( !results[(matchNum-4)].equals(pick) && 
-						isValid(pick, matchNum-4) )
+						isValid(pick, (matchNum-136)*2+120) ||
+						isValid(pick, (matchNum-136)*2+121) )
 						|| isValid(pick, (matchNum-8));
 			}else if(matchNum < 144)
 			{
@@ -566,6 +636,8 @@ public class Guru {
 				possibleResults[i] = parts;
 			}
 		}
+	
+		
 		
 		//reads the actual results that have occurred so far.
 		public static void processResults(String[] picks)
